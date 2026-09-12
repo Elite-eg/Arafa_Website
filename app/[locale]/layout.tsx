@@ -34,7 +34,8 @@ const ibmArabic = IBM_Plex_Sans_Arabic({
 
 export const metadata: Metadata = {
   title: {
-    default: "Al Jazira for Imdad Smart Company | MEP Contracting & Smart Systems",
+    default:
+      "Al Jazira for Imdad Smart Company | MEP Contracting & Smart Systems",
     template: "%s | Al Jazira for Imdad Smart Company",
   },
   description:
@@ -47,7 +48,19 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
+    url: "https://arafa-website.vercel.app/en/home",
     siteName: "Al Jazira for Imdad Smart Company",
+    title: "Arafa Website",
+    description:
+      "Leading MEP construction company in the Gulf region with 45+ years of experience. General contracting, mechanical, electrical, plumbing, firefighting systems, and smart building solutions in KSA.",
+    images: [
+      {
+        url: "/images/logo.png",
+        width: 1200,
+        height: 630,
+        alt: "Arafa Website",
+      },
+    ],
   },
 };
 
