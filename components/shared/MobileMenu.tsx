@@ -7,6 +7,7 @@ import { NAV_LINKS, COMPANY } from "@/lib/constants";
 import { cn } from "@/lib/utils";
 import { HiOutlinePhone, HiOutlineMail, HiX } from "react-icons/hi";
 import Link from "next/link";
+import Image from "next/image";
 
 interface MobileMenuProps {
   isOpen: boolean;
@@ -101,21 +102,16 @@ export default function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
             className="fixed top-0 end-0 bottom-0 z-50 w-[80%] max-w-sm bg-white shadow-2xl lg:hidden flex flex-col"
           >
             {/* Menu Header */}
-            <div className="flex items-center justify-between px-6 py-5 border-b border-gray-100">
+            <div className="flex items-center justify-between px-6 py-2 border-b border-gray-100">
               <Link href="/home" onClick={onClose} className="flex items-center gap-3">
-                <div className="relative">
-                  <div className="w-10 h-10 rounded-xl bg-primary text-white flex items-center justify-center font-heading font-bold text-lg">
-                    AJ
-                  </div>
-                  <div className="absolute -bottom-0.5 -end-0.5 w-3 h-3 rounded-full bg-accent animate-pulse-slow" />
-                </div>
-                <div className="flex flex-col">
-                  <span className="font-heading font-bold text-sm tracking-wide text-primary">
-                    ALJAZIRA
-                  </span>
-                  <span className="text-[10px] tracking-widest uppercase text-content-muted">
-                    IMDAD SMART
-                  </span>
+                <div className="relative w-[170px] h-[80px]">
+                  <Image
+                    src="/images/logo.png"
+                    alt="Aljazira for Imdad Smart Company"
+                    fill
+                    className="object-contain object-left"
+                    sizes="130px"
+                  />
                 </div>
               </Link>
               <button
