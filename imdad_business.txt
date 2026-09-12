@@ -1,0 +1,600 @@
+# AL JAZIRA FOR IMDAD SMART COMPANY — FULL CONTENT REFERENCE
+(Compiled from: Logo Redesign PDF, IMDAD Profile PDF, Al Jazira Website PDF)
+This document is a complete plain-text reference to be used as source content when building the new company website.
+
+===================================================================
+## 1. COMPANY IDENTITY / BRANDING OVERVIEW
+===================================================================
+
+- Current / New Brand Name: **Al Jazira for Imdad Smart Company**
+- Arabic Name: شركة ألجزيرة للأمداد الذكية
+- Former Name: **IMDAD Group** (also referred to as "IMDAD for Smart Buildings & Construction of Public Buildings")
+- Parent Company: **Arafa Engineering** (ARFA) — Al Jazira for Imdad Smart Company is positioned as a subsidiary brand of Arafa Engineering.
+- Industry: MEP (Mechanical, Electrical, Plumbing) Construction, General Contracting, Firefighting Systems, Smart Systems Integration.
+- Region of operation: Gulf region (primarily Kingdom of Saudi Arabia — KSA), with past projects in Dubai (UAE) and Qatar.
+- Years of experience: 45+ years (under the IMDAD name).
+- Tagline / Motto: "Developing and serving society with the highest levels of professional integrity and commitment."
+
+### Logo Redesign Notes
+- The logo was redesigned to create a stronger visual connection with the parent company, Arafa Engineering, while maintaining a distinct identity for Al Jazira for Imdad Smart Company as a subsidiary brand.
+- The previous logo relied heavily on thin lines and a lightweight visual style, which did not fully reflect the strength and nature of the company's work in construction supplies.
+- The new logo was developed with a bolder, more solid visual direction, inspired by the identity and spirit of the parent company's (ARFA) logo — creating a clear relationship between both brands while giving Al Jazira its own recognizable identity.
+- Before: Thin-line icon logo (house/building + tree/plant icon) with Arabic text "شركة ألجزيرة للأمداد الذكية" and English "Aljazira for Imdad Smart Company."
+- After: Bolder, more solid geometric logo combining building/skyline shapes with the wordmark "ALJAZIRA" in bold black lettering, subtitle "FOR IMDAD SMART COMPANY," and Arabic text beneath.
+- Brand icon motif used across the current website: a minimalist line-art icon combining a house/building outline, a tree, and rolling landscape/field lines (used as a favicon/logo element throughout the site).
+
+===================================================================
+## 2. COMPANY LOGO CONTACT DETAILS (from logo redesign / website)
+===================================================================
+- Phone: +966-057-353-4185 (also shown elsewhere as +966-0573-534-185)
+- Email: aljazirallilimdad@gmail.com
+- Address: 7676 - Bathaa Quraish, Makkah Al Mokaramah, KSA (Makkah - Al Nuzha, Al Steen St., per old IMDAD profile; Building No. [placeholder], Office [placeholder])
+- Old IMDAD contact (legacy): Tele: +966120000000, Fax: +966120000000, Email: info@imdad-group.com, Website: www.imdad-group.com
+
+===================================================================
+## 3. ABOUT US (Current — Al Jazira for Imdad Smart Company)
+===================================================================
+Al Jazira for Imdad Smart Company (formerly known as IMDAD Group) is a leading name in the MEP construction sector in the Gulf region. With over 45 years of proven experience under the IMDAD name, the company continues to specialize in Mechanical and Electrical construction, offering complete, collaborative, and end-to-end solutions that bring life to new buildings and sustain existing ones.
+
+### Our Strengths
+- Nearly five decades of expertise in Gulf markets.
+- Proven track record of delivering exceptional performance.
+- Recognized as a dependable specialist MEP contractor in the Gulf region.
+- Strong reputation for quality, reliability, and timely delivery.
+
+### What We Offer
+- High-performance facility operations that improve productivity.
+- Energy efficiency solutions to reduce consumption and operating costs.
+- Comprehensive MEP packages delivered mostly by our in-house engineers, minimizing reliance on subcontractors and ensuring better risk management.
+
+### Commitment to Excellence
+At Al Jazira for Imdad Smart Company, we take pride in delivering work of the highest quality, strictly conforming to international standards. Our focus on training and qualifying our engineers ensures innovation, safety, and customer satisfaction at every stage.
+
+===================================================================
+## 4. LEGACY "WELCOME" / COMPANY HISTORY (from old IMDAD profile)
+===================================================================
+Visionary founder Mr. Rashwan Mahmoud established IMDAD GROUP. His vision was to create a large and leading Electromechanical company; he believed that hard work could make this a reality, and aimed to leave a legacy for future generations of professionals.
+
+Today, IMDAD is a story of success built on shared values and ambition. World-renowned and recognized for its excellence in the industry, IMDAD has substantially grown over the years. Starting as IMDAD sanitary works in KSA, IMDAD diversified, constantly following the market. For over 45 years, the IMDAD Team has been reinforcing its international presence in the Gulf, expanding its in-house expertise and enlarging its scope of MEP Engineering services.
+
+From its modest beginnings in KSA, IMDAD GROUP is today present in most leading KSA markets. By 2011, the company was operating in many projects. By 2023, it extended its reach to all the most professional MEP works.
+
+IMDAD GROUP provides a complete range of Mechanical, Electrical and Plumbing services through a highly experienced Engineering & Project Management team, fully complying with time, cost, and quality requirements of projects. The company provides engineering and technical electromechanical services that go beyond borders; its expansion ensures it offers local insight coupled with high international standards.
+
+### List of MEP Works Undertaken
+**Self-Performed (Approx. 85%):**
+1. HVAC Systems
+2. BMS/Automation System
+3. Mechanical Ventilation System
+4. Staircase Pressurized System
+5. Plumbing System
+6. Water Supply System
+7. Drainage System
+8. Smoke Management System
+9. Fire Detection System
+10. Fire Fighting System
+11. Fire Stopping System
+12. Exhaust System
+13. Cold Rooms & External Refrigeration
+14. Power Distribution System
+15. Small Power & MV Systems
+16. Lighting System
+17. Data Networking System
+18. Telephone System
+19. Surveillance & TV Systems
+20. Access Control & Sound System
+21. Data Centers & NOC Rooms
+
+**Subcontracted (Approx. 15%):**
+1. ELV Systems
+2. Gas Systems
+3. HV Works
+4. Commissioning (TAB)
+
+### MEP Coordination with Project Stakeholders (organizational relationship map)
+- Project Consultant
+- STC (Saudi Telecom Company)
+- MEP Vendors
+- Main Contractor
+- IMDAD (center/core)
+- Project Developer
+- Specialist Subcontractor (HV, ELV, Gas, TAB)
+- Ministry of Water & Electricity (وزارة المياه والكهرباء)
+
+### Company Description (extended)
+IMDAD GROUP is the flagship of the MEP Construction Sector, a leading business house with a wide business interest in the Gulf Region. IMDAD Group is popularly known in the Mechanical and Electrical construction sector, providing complete, collaborative, end-to-end solutions, infusing life into new buildings and sustaining life in existing ones.
+
+Nearly 45 years of IMDAD Team operations in Gulf markets — IMDAD has rapidly expanded and grown from strength to strength, delivering exceptional performance and earning a reputation as a highly dependable specialist MEP contractor in the Gulf region.
+
+The company also offers clients high-performance facility operation that improves productivity, reduces energy consumption, and reduces operating costs, thereby providing long-term value.
+
+IMDAD has developed to satisfy the construction market by training and qualifying its engineers to a very high standard in the MEP area. This enables it to offer three-quarters of the complete MEP package to its clients through its own staff, which reduces dependency on sub-contractors, therefore reducing the risks associated with third-party contractors to a manageable proportion — enabling the company to guarantee quality, service, and on-time delivery.
+
+The company takes pride in delivering work to the highest quality and standards that strictly conform to international standards.
+
+Now IMDAD prepares to obtain DEWA, SEWA, and FIC approval certification, with membership at the Institute of Electrical Engineers (IEE) and the IEEE. The company's engineers have many years of combined experience in the industry with qualifications ranging from Bachelor's to PhD in all subjects under the heading of MEP.
+
+The company begins by working closely with clients to identify their specific needs and goals. Next, it assembles an interdisciplinary team of professionals tailored to each project. This team is directed by a principal and a project manager, who together ensure each assignment is handled by experienced, qualified professionals.
+
+The company manages virtually all aspects of any project with internal resources, providing planning, coordination, and orderly project development. This approach to project management has enabled the company to develop positive client relationships that extend over many years of working together.
+
+### CEO Message ("We")
+"We take great pride in the fact we continued to be successful doing what we do best creating everyday essentials to make people's lives more liveable and inspiring. This is the purpose that drives us. It sparks our creativity, gives us energy, enables us to deliver for our customers, our business. We're using our key strengths - essential ingredients - essential protection and essential color - to help build a solid foundation for the next phase of the company's strategy.
+
+Although conditions were challenging during the year, with many markets and regions experiencing varying degrees of volatility and uncertainty, we made significant progress towards our vision of leading market position delivering leading performance. We are now a stronger, leaner, more agile company. We have new operating models in place, we've refined our portfolio; our factory footprint has been optimized; a continuous culture is being initiated and there's continued focus on operational excellence. In addition, our ability to successfully commercialize innovation remains strong, we continue to lead the way in terms of sustainability and our Human Cities initiative has evolved and continues to grow and thrive."
+— IMDAD GROUP CEO
+
+### IMDAD Teamwork
+In today's dynamic marketplace, needs people who are not just good — it needs people who are innovative, passionate about the business, and who make a difference every day.
+
+Since the MEP contracting line of business has grown rapidly to be one of today's highly successful and leading electro-mechanical contracting companies, a solid base of skilled engineers and labor force, and effective management team supports this growth. Within a very short time span, IMDAD undertook various sized projects ranging from factories, hotels, shopping malls, club houses, universities, and a large group of administration buildings including green buildings.
+
+The company believes that engineering and technicians improve the quality of life. It focuses on people, the environment, and well-being. From the onset, the founder of IMDAD GROUP was driven by the motto: "developing and serving the society with the highest levels of professional integrity and commitment." Corporate Social Responsibility (CSR) activities are part of the company's essence.
+
+### Manpower Structure (Pyramid Levels)
+1. **Top Management**
+   - Chairman
+   - Chief Executive Officer
+   - Commercial Director
+2. **Higher Level Management**
+   - Project Manager
+   - Engineering Manager
+   - Design Manager
+   - Co-ordination Manager
+   - Commissioning Manager
+   - Contracts Manager
+   - Planning Manager
+   - QA/QC Manager
+   - HSE Manager
+   - Admin Manager
+   - Account Manager
+   - Store Manager
+   - Procurement Manager
+   - Estimation Manager
+   - Business Development Manager
+   - Maintenance Manager
+3. **Middle Level — Supervision**
+   - Construction Manager
+   - Site Manager
+   - Project Engineer
+   - Site Engineer
+   - Supervisor
+   - Foreman / Leadman
+   - Chargedman
+4. **Lower Level — Operations**
+   - Ductman
+   - Cladder
+   - Insulator
+   - Pipe Fitter
+   - Welder
+   - Plumber
+   - Electrician
+   - Cable Jointer
+   - Control Technician
+   - Technician
+   - A/C Technician
+   - Assistant
+
+### IMDAD Staff — Job Categories & Headcount (Power)
+| # | Job Category | Power (Count) |
+|---|---|---|
+| 1 | Mechanical Engineers (Tech. Office) | 1 |
+| 2 | Mechanical Engineers (Site Eng.) | 2 |
+| 3 | Electrical Engineers (Tech. Office) | 1 |
+| 4 | Electrical Engineers (Site Eng.) | 2 |
+| 5 | Telecom. Engineers | 1 |
+| 6 | Architect Engineer (Sister Company & JV) | 1 |
+| 7 | Civil Engineers (Sister Company & JV) | 3 |
+| 8 | QA/QC Engineers (Mech., Elec., Telecom.) | 2 |
+| 9 | Auto Cad Draftsman | 2 |
+| 10 | Safety Engineers | 1 |
+| 11 | Supervisors (Civil & Mech. & Elec. & Telecom.) | 3 |
+| 12 | Field Surveyors | 1 |
+| 13 | Computer Administrator/Secretaries | 1 |
+| 14 | Purchasers | 1 |
+| 15 | Store Keepers | 1 |
+| 16 | Leadman | 2 |
+| 17 | Quantity Surveyors | 1 |
+| 18 | Labor Force (Tech. & Labors) Out Sponsor ... Ajeer | 20 |
+
+### IMDAD Equipment List
+| # | Equipment/Description | Power/Quantity |
+|---|---|---|
+| 1 | Cable / Metal Detectors | 4 |
+| 2 | Clipping Tools | 7 |
+| 3 | Jack Hammers & Hoses | 6 |
+| 4 | Pits Berg Machine (Lock Forming) | 6 |
+| 5 | Sheet Cutting Machine Electrical | 1 |
+| 6 | Sheet Cutting Machine Manual | 3 |
+| 7 | Roller Machine (Rent) | 0 |
+| 8 | Electrical Welding Plant | 6 |
+| 9 | Oxygen & Acetylene Set (For cutting & welding) | 3 |
+| 10 | Organ Welding Machine | 7 |
+| 11 | Gas Welding Machine | 2 |
+| 12 | Threading Machine | 4 |
+| 13 | Scaffolding | 4500 sqm |
+| 14 | Ladders | 25 |
+| 15 | Fiber Optic Splicing Machine | 4 |
+| 16 | Fluke Cable Tester | 6 |
+| 17 | Fiber Optic OTDR | 2 |
+| 18 | High Pressure Duct Leaking Testing Machine | 4 |
+| 19 | Low Pressure Duct Leaking Testing Machine | 4 |
+| 20 | Ultra Sonic Water Flow Meter | 3 |
+| 21 | Sound Level D.B Meter | 5 |
+
+### Typical Project Organization Chart
+- Project Manager (top)
+  - Admin Assistant
+  - Accountant
+  - QA/QC Engineer
+  - Planning Eng.
+  - Mechanical Eng. → CAD Operator/s → Supervisor → Forman
+  - Electrical Eng. → CAD Operator/s → Supervisor → Forman
+  - Local Purchaser → Store Keeper
+  - Civil Eng. → CAD Operator/s → Forman
+  - Architecture → Forman
+
+===================================================================
+## 5. STRATEGY, MISSION & VISION
+===================================================================
+
+### Our Strategy
+The desire for diversification was not merely focused on multiple technologies, but also on multiple disciplines and territories. The net result of this strategy would minimize the inherent risk of a common myopic focus many companies get settled into. Though change is usually viewed as painful, it is also invigorating as the components of the vision begin to fall into place.
+
+**Plan to execute this strategy was focused on three areas:**
+1. Expanding our Core Competencies
+2. Identifying and producing unique technologies
+3. Aligning with key partners that would enhance our capabilities to produce and distribute these new ideas
+
+Core strengths in the electro-mechanical sector have allowed the company to nurture its business and seek other areas for profitable and sustainable growth. Over a 45-year period, the company (IMDAD Group / Al Jazira for Smart Imdad) has evolved to become a multi-disciplined EPIC service provider. The plan to expand services across a range of engineering and construction disciplines has served the company well.
+
+### Our Mission
+To safely deliver world-class Quality MEP projects and Infrastructure projects on time and promoting environmental protection and sustainable communities development.
+
+**(Extended Mission — current Al Jazira version):**
+At Al Jazira for Smart Imdad, our mission is to deliver world-class MEP and infrastructure projects while ensuring complete safety and protecting lives. We are committed to completing projects on time, adhering strictly to the highest standards of engineering and technical quality.
+
+1. **Engineering Excellence:** Providing comprehensive and effective solutions across all contracting projects, including mechanical, electrical, and plumbing works.
+2. **Safety First:** Strictly following occupational health and safety standards to protect individuals and assets at all sites.
+3. **Sustainability and Environmental Protection:** Implementing eco-friendly solutions that reduce energy consumption and contribute to sustainable community development.
+4. **Customer Focus:** Understanding client needs and adapting services to ensure full satisfaction, offering tailored solutions that meet expectations.
+5. **Innovation and Continuous Improvement:** Developing innovative technologies and solutions to enhance project efficiency and reduce operational costs without compromising quality.
+
+Through these principles, the company aims to be a trusted partner for all its clients, providing real value in every project undertaken, and consistently achieving engineering excellence that reflects the company's vision and core values.
+
+### Our Vision
+To become a regional market leader in the MEP Construction Industry, providing engineering excellence to valued clients, through commitment to delivering best practices in corporate governance and transparency.
+
+Utilizing proven expertise and experience in designing and building smelting equipment, the approach is to transform the Company into a world-class business through entrepreneurial management and sustained investment.
+
+Operating efficiency — underpinned by tight financial control, judicious use of capital, and strong balance sheets — remains paramount to the Company's long-term security.
+
+At the same time, the company is a very customer-focused organization, constantly adapting itself and what it produces to the changing needs of its customers.
+
+===================================================================
+## 6. SERVICES OFFERED (Current Website — Al Jazira for Imdad Smart Company)
+===================================================================
+
+### General Contracting
+- Execution of new construction projects adhering to the highest quality standards.
+- Comprehensive project management from design to delivery.
+- Maintenance and upgrading of existing buildings to ensure sustainability and efficiency.
+
+### MEP Works (Mechanical, Electrical, Plumbing)
+- Complete mechanical, electrical, and plumbing engineering services.
+- End-to-end packages delivered by in-house engineers.
+- Innovative solutions to improve energy efficiency and reduce operating costs.
+
+### Firefighting Systems
+- Design and implementation of firefighting systems according to international standards.
+- Installation and maintenance of sprinklers and safety equipment.
+- Integrated safety solutions to minimize risks and protect lives and property.
+
+### Commitment to Quality
+- Focus on the highest standards of quality and safety in every project.
+- Specialized teams ensuring precise execution and timely delivery.
+
+===================================================================
+## 7. IMDAD SYSTEMS (Sister Division — Smart/AV/IT Solutions)
+===================================================================
+In 2014, IMDAD-Systems was started under the IMDAD-Group, based in KSA (also noted as based in Dubai in one instance), providing services and products for system integration, promotional audio-visual, multi-media, and security applications both for public and private sectors. The company gained years of experience combining the best technology products and professional services that led it to have a competitive edge to succeed.
+
+### Company Offered Solutions
+- Audio Visual (AV)
+- Smart Automation
+- Queue Management Solution
+- Electric — Low Current (LC)
+- Security
+- IT & Networks
+- Telecommunication
+- Lighting Control
+
+### Company Solution Sectors
+- Education
+- Transportation
+- Retail/Showroom
+- Hospitality
+- Banking
+- Telecom
+- Governments
+
+### Our Services (IMDAD Systems)
+- Installation
+- Managements
+- Integration
+- Maintenance
+- Consultancy
+
+### Detailed Solutions
+
+**AUDIO VISUAL (AV)**
+- Display Solutions
+- Full Graphical LED
+- Interactive Multi-Touch Screens
+- Meeting Room Solutions
+- Accessories
+
+**IT & NETWORKING**
+- LAN Solutions
+- Wireless Solutions
+- Storage & Backup Solutions
+- Cloud Solution
+- Integrated Solution
+- NAC & NOC Solution
+- Customized Applications
+- Servers & Switches Component
+- Data Center & Disaster Recovery
+
+**SECURITY**
+- Video Surveillance System
+- Access Control Solution
+- Gates & Intrusion Solution
+
+**TELECOMMUNICATION**
+- IP Telephony System
+- Public Address System
+- Intercom System
+- Nursing Call System
+- Public Address System
+
+**ELECTRIC LOW CURRENT (LC)**
+- Passive & Active Solution
+- Structured Cabling
+- UPS Solution
+- Satellite Systems
+- Fire Alarm Systems
+- GSM-Timing System
+- Public Address System
+
+**INDUSTRIAL LIGHTING**
+- LED Lighting
+- Industrial Lighting
+- Entertainment Lighting Systems
+
+**QUEUE MANAGEMENT SOLUTION**
+- Queue Management Systems
+
+**SMART AUTOMATION**
+- Customized Kiosks
+- Automation Control System
+- Meeting & Library Room System
+- Theater Solution
+- Home Automation System
+- Smart Cards Solution
+
+**SYSTEM INTEGRATION**
+- Performance testing and engineering
+- Technology program management
+- Testing advisory and delivery services
+
+===================================================================
+## 8. PROJECTS LIST (Comprehensive — Compiled from both PDFs)
+===================================================================
+
+### IMDAD Projects (General / Major)
+| # | Project | Location/Client | Scope | Status |
+|---|---|---|---|---|
+| 1 | Princess Noura University (PNU) | KSA – With Postech Co. | Low Current SCS | Finished |
+| 2 | NOMURA Investment Banking (Middle East) | KSA – Postech Co. | Low Current Systems | Finished |
+| 3 | Bank of America (Merrill Lynch) | KSA – Postech Co. | MEP | Finished |
+| 4 | Roads & Transport Authority (RTA) | Dubai – Target Co. | Data Center MEP | Finished |
+| 5 | Student Accommodation Tabouk University | KSA – Target Co. | MEP | Finished |
+| 6 | Medical Science College Taif University | KSA – Target Co. | MEP | Finished |
+| 7 | Kadillac Show Room – Al Gomaih | KSA – Somit Co. | MEP | Finished |
+| 8 | Stella Hotel (32 floors) | Dubai – Target Co. | MEP | Working |
+| 9 | Police Training Institute | Qatar – Target Co. | MEP | Finished |
+| 10 | Al Hada Armed Force Hospital | KSA – Honeywell Co. | Fire Alarm System | Working |
+| 11 | Saudi Post (Jeddah) | KSA – MERCO Co. | MEP Upgrade | Finished |
+| 12 | Zamzam Health Building 3 (Makkah) | KSA – SVC Co. | Fire Fighting | Working |
+| 13 | Jouf Cement Factory | KSA – MERCO Sister Company | Civil & MEP (Dar Alhandasa Al Hadesa) | Finished |
+| 14 | 7 Schools (Jazan) | KSA – MERCO Sister Company | Civil & MEP (Dar Alhandasa Al Hadesa) | Finished |
+| 15 | King Fahd M. Hospital (Jeddah) | KSA – MERCO | F.A & CCTV | Finished |
+| 16 | IKEA Store (Riyadh) | KSA – Sister Company | Structure Cabling | Finished |
+| 17 | IKEA – Hafuf Branch | KSA – MERCO | Video Wall | Finished |
+| 18 | KAP1 – 5 Projects | KSA – MERCO | LC Systems | Finished |
+| 19 | Shaqraa University | KSA – Petrojet | Data & LC Systems (AKNAN) | Finished |
+| 20 | Ministry of Municipality Auditorium (Riyadh) | KSA – Petrojet | MEP | Finished |
+| 21 | Mobily Terminal Building | KSA – Petrojet | MEP | Finished |
+| 22 | Al Andalus Intercontinental Hotel (Jeddah) | KSA | MEP | Finished |
+| 23 | Al Essa Hotel (Riyadh) | KSA – AKNAN | MEP | Finished |
+| 24 | Al Thumamah Park | KSA – AKNAN | MEP | Finished |
+| 25 | King Salman Oasis of Science | KSA – AKNAN | MEP | Finished |
+
+### Makkah Projects — Omar Saeed Bafel Co. (OBJC)
+| # | Project | Scope | Status |
+|---|---|---|---|
+| 1 | Hotel Al Janaderiah Palace Hotel | MEP | Finished |
+| 2 | Hotel Al Janadriah Palace | MEP | Finished |
+| 3 | Hotel Rehab Al Janadriah | MEP | Finished |
+| 4 | Al Zaher Tower (1) | MEP | Finished |
+| 5 | Al Zaher Tower (2) | MEP | Finished |
+| 6 | Gabal Sawdan Tower | MEP | Finished |
+| 7 | Al Dahla Tower | MEP | Finished |
+| 8 | Safwat Al Shrooq Hotel | MEP | Finished |
+| 9 | Manar Al Shrooq Hotel | MEP | Finished |
+| 10 | Rawdat Al Shrooq Hotel | MEP | Finished |
+| 11 | Dar Al Shrooq Hotel | MEP | Finished |
+| 12 | Bafel Khyat Tower | MEP | Finished |
+
+### Makkah Projects — Beyout Makkah Co.
+| # | Project | Scope | Status |
+|---|---|---|---|
+| 1 | Sofitel Makkah Hotel | MEP | Finished |
+| 2 | Meridien Makkah Hotel | MEP | Finished |
+| 3 | Mawakeb Al Rawdah Hotel | MEP | Finished |
+| 4 | Beyout Makkah Pavilion HQ | MEP | Finished |
+| 5 | Otaybiah Central Market | MEP | Finished |
+
+### Makkah Projects — Al Masa Co.
+| # | Project | Scope | Status |
+|---|---|---|---|
+| 1 | Ramada Dar Al Faezeen Hotel | MEP | Finished |
+| 2 | Ramada Ashee Hotel | MEP | Finished |
+| 3 | Elaf Al Moltaqa Hotel | MEP | Finished |
+| 4 | Eoan Hotel | MEP | Finished |
+
+### Makkah Projects — Al Jazera Co.
+| # | Project | Scope | Status |
+|---|---|---|---|
+| 1 | Jeddah Palace Hotel | MEP | Finished |
+| 2 | Dorrat Al Khalil Hotel (Bal Jazera Co.) | MEP | Finished |
+| 3 | Habibah Hotel Makkah (Nouh Maraq) | MEP | Finished |
+| 4 | Al Souhadaa Hotel | MEP | Finished |
+| 5 | Watany Mall | MEP | Finished |
+
+### Makkah Projects — ATTAMEER Co.
+| # | Project | Scope | Status |
+|---|---|---|---|
+| 1 | Al Maqam Tower (A, B, C, D) | MEP | Finished |
+| 2 | Al Naseem Tower (91 to 99) | MEP | Finished |
+| 3 | Aziziah Tower | MEP | Finished |
+
+### Makkah Projects — Olayan Group
+| # | Project | Scope | Status |
+|---|---|---|---|
+| 1 | Olayan Tower Qudai | MEP | Finished |
+| 2 | Ghadeer Tower Qudai | MEP | Finished |
+| 3 | Culture Center Qudai | MEP | Finished |
+| 4 | Olayan Tower Aziziah | MEP | Finished |
+| 5 | Olayan Golden Hotel | MEP | Finished |
+| 6 | Naaeb Al Haram Hotel | MEP | Finished |
+| 7 | Shk. Saleh Al Owied | MEP | Finished |
+
+### Makkah Projects — Al Zaydi Group
+| # | Project | Scope | Status |
+|---|---|---|---|
+| 1 | Hyper Abraj | MEP | Finished |
+| 2 | Al Zaydi Concrete Factory | MEP | Finished |
+| 3 | Al Mona Ajiad Hotel | MEP | Finished |
+| 4 | Al Lewaa Hotel | MEP | Finished |
+| 5 | Abou Al Jadail Kitchen | MEP | Finished |
+| 6 | Abdullah Bokhari Hotel | MEP | Finished |
+| 7 | Abdulatif Sendy Hotel | MEP | Finished |
+| 8 | Abou Ghalia Consultant HQ | MEP | Finished |
+| 9 | Nursery School | MEP | Finished |
+| 10 | Labor Court Bathaa Qwraish | MEP | Finished |
+| 11 | National Water Company Building | MEP - Upgrade | Finished |
+(Partners noted on this page: NWC – National Water Company; Sameer Abughalia Engineering Consulting Office)
+
+### Additional Makkah Projects (unspecified client group — list continues, appears twice in source with duplication)
+1. Awqaf Al Moufty Hotel Al Joumaizah — MEP — Finished
+2. Awqaf Al Moufty Hotel Al Aziziah — MEP — Finished
+3. Awqaf Al Moufty Hotel Ibrahim Al Khalil — MEP — Finished
+4. Mena Senatry Network — MEP — Finished
+5. Charity Inst. Block Makkah — MEP — Finished
+6. Charity Inst. Block Jeddah — MEP — Finished
+7. Issa Bin Laden HQ — MEP — Finished
+8. Issa Bin Laden HQ Parking — MEP — Finished
+9. Hamraa Hospital Jeddah — MEP — Finished
+10. Issa Bin Laden Stores (1 to 9) — MEP — Finished
+11. Mena Gate Hotel — MEP — Finished
+12. Awali Mall Makkah — MEP — Finished
+13. Afwaj Al Tawba Hotel (1 to 15) — MEP — Finished
+14. Afwaj Al Tawba Group Store — MEP — Finished
+15. Al Zaydi Kitchen — MEP — Finished
+16. Al Fraj Stores — MEP — Finished
+17. Qawafel Makkah Market — MEP — Finished
+18. Maternity and Children Hospital Makkah — MEP — Finished
+19. Family Market Makkah — MEP — Finished
+
+===================================================================
+## 9. PARTNERS / BRANDS (from IMDAD Profile — "Our Partners")
+===================================================================
+
+### Electrical
+Schneider Electric, ABB, Al Fanar, Legrand, Belden, Systemax, 3M, Bahra Cables, Elsewedy Electric, Riyadh Cables Group Company, Siemens
+
+### HVAC Systems
+Carrier, Trane, Gree, Zamil Air Conditioners, Daikin, York
+
+### Fire Fighting & Plumbing Systems
+KSB, Grundfos, HCBM, Naffco, Mueller, Neproplast, Namcoduct
+
+### Systems Integration
+Cisco, HP, Dell, Huawei, Avaya, Juniper Networks, LG, Samsung, Philips, TOA Technologies, Crestron, Extron, Bosch, Epson, DSE, Qmatic, Onlinet, Honeywell, Axis Communications
+
+===================================================================
+## 10. CLIENTS (from IMDAD Profile — "Our Clients")
+===================================================================
+- OBSC (Omar Saeed Bafel Co.)
+- ATTAMEER (للأعمار والمقاولات)
+- Al Jazera for Contracting
+- Sameer Abughalia Engineering Consulting Office
+- Al Zaydi Group (for building & contracting)
+- Olayan Group (Al Olayan)
+- General Entertainment Authority (الهيئة العامة للترفيه)
+- Ministry of Hajj and Umrah (وزارة الحج والعمرة)
+- Ministry of Education (وزارة التعليم)
+- Ministry of Health (وزارة الصحة)
+- NWC — National Water Company (المياه الوطنية)
+- Saudi Post (البريد السعودي)
+- Merrill Lynch — Bank of America Corporation
+- Mobily (موبايلي)
+- GM — Al Jomaih Automotive (الجميح للسيارات)
+
+===================================================================
+## 11. PROJECT GALLERY CATEGORIES (image categories seen in profile, for reference on imagery type needed on new site)
+===================================================================
+- HVAC / AC Works (ductwork installation, ceiling AC units)
+- Firefighting Systems (fire pumps, sprinkler piping, red pipe networks, fire suppression cylinders/tanks, fire panels, extinguishers)
+- Plumbing Systems (underground piping, trench work, riser installations)
+- Electrical Works (cable trays, cable pulling/laying, underground ducting, distribution panels, MV/LV cabling)
+- Chilled Water Systems (chillers, rooftop units, pump rooms, pipe insulation)
+- Al Jazira Gallery (additional firefighting system installs — fire pump rooms, standpipes, valve assemblies, control panels, red/orange coated firefighting pipework, tanks, water tanks for domestic supply)
+
+===================================================================
+## 12. WEBSITE STRUCTURE OBSERVED (Current Al Jazira site — for reference/replication)
+===================================================================
+**Navigation Menu:** Home | Service | About Us | Contact
+
+**Pages/Sections:**
+1. **Home / Hero Section** — Large hero image (construction crane/building), Company name headline "AL JAZIRA FOR IMDAD SMART COMPANY," contact info bar (phone + email), background brand icon (house/tree/field line-art logo)
+2. **About Us** — Company description, Our Strengths, What We Offer, Commitment to Excellence (with construction worker imagery)
+3. **What Services Do We Provide?** — General Contracting, MEP Works, Firefighting Systems, Commitment to Quality (4-column/2x2 layout with header image of workers overlooking a construction site at sunset)
+4. **Strategy/Vision section** — Strategy paragraph, 3 focus areas, Our Vision (with red firefighting pipe imagery)
+5. **Our Mission section** — 5 mission pillars, with piping/pump room imagery
+6. **Meet Our Team** — Company/team description + 4-tier organizational pyramid (Top Management, Higher Level Management, Middle Level Supervision, Lower Level Operations) + 3D pyramid graphic
+7. **Our Project(s)** — Multiple long project listing sections grouped by client (numbered lists as shown in Section 8 above), each accompanied by project photos
+8. **AL JAZIRA-GALLERY** — Photo gallery section (firefighting/MEP installation photos)
+9. **Our Contact** — "We are always delighted to hear from you..." + Phone, Email, Address + image of laptop/hardhat/blueprint mockup on desktop monitor
+10. **Footer / Closing Page** — "THANK YOU" slide with building/architecture photo (Note: footer shows "Ingoude Company" — likely a template placeholder name left over from the design template and should be corrected/replaced with "Al Jazira for Imdad Smart Company" on the real site)
+
+**Design/Brand Notes:**
+- Primary brand icon: minimalist line-art logo (house outline + small tree/circle + curved field/landscape lines) — orange/tan accent color for the small circle element
+- Color palette observed: white/light lavender-gray backgrounds, dark charcoal/black text, warm taupe/mauve-brown accent blocks (used for contact info bar, "Thank You" section), orange/yellow diamond bullet/logo accent, red (from firefighting imagery, not necessarily brand color)
+- Typography: bold, large sans-serif headings; clean modern sans-serif body text
+- Photography style: real project/site photography (construction workers, cranes, MEP installations, red firefighting pipework), plus stock-style imagery for hero/about sections (sunset construction site, laptop/blueprint desk mockup)
+- Layout pattern: alternating image-left/text-right and text-left/image-right two-column sections
+
+===================================================================
+## 13. KEY NOTES / DISCREPANCIES TO RESOLVE BEFORE BUILDING SITE
+===================================================================
+- The current live site's footer says "Ingoude Company" — this is a leftover template name and should be replaced with the correct company name.
+- Phone number appears in two slightly different formats across pages: "+996-057-353-4185" / "+966-057-353-4185" / "+966-0573-534-185" — confirm the correct number before publishing.
+- Company narrative blends two identities: legacy "IMDAD Group" (45+ years, founder Mr. Rashwan Mahmoud) and new "Al Jazira for Imdad Smart Company" (positioned as subsidiary of Arafa Engineering). The website should clarify this relationship (rebrand/subsidiary) for site visitors.
+- Some project data appears duplicated in the source list (Awqaf Al Moufty Hotel entries etc. repeat) — deduplicate when building the final project list for the site.
+- Full legal/registered contact details (fax, building number, office number) in the old IMDAD profile are placeholders (e.g., "+966000000000", "Building No 0000 - Office 00") — need real values from the client before publishing a contact page.
+
+===================================================================
+END OF REFERENCE DOCUMENT
+===================================================================

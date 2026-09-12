@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 80" width="240" height="80">
+  <rect width="240" height="80" fill="#FFFFFF" rx="12"/>
+  <g transform="translate(10, 0)">
+    <path d="M30 35l15 18 15-18h-8l-7 9-7-9zM42 53h6v17h-6z" fill="#00539B"/>
+    <text x="95" y="46" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="800" fill="#00539B" letter-spacing="1">YORK</text>
+    <text x="95" y="60" font-family="'Helvetica Neue', Arial, sans-serif" font-size="8" font-weight="600" fill="#777777" letter-spacing="1.5">BY JOHNSON CONTROLS</text>
+  </g>
+</svg>

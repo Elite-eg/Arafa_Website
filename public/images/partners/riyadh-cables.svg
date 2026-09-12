@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 80" width="240" height="80">
+  <rect width="240" height="80" fill="#FFFFFF" rx="12"/>
+  <g transform="translate(10, 0)">
+    <circle cx="45" cy="50" r="18" fill="none" stroke="#006837" stroke-width="6"/><circle cx="45" cy="50" r="8" fill="#D4AF37"/>
+    <text x="95" y="46" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="800" fill="#006837" letter-spacing="1">RIYADH CABLES</text>
+    <text x="95" y="60" font-family="'Helvetica Neue', Arial, sans-serif" font-size="8" font-weight="600" fill="#777777" letter-spacing="1.5">GROUP COMPANY</text>
+  </g>
+</svg>

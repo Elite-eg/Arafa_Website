@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 80" width="240" height="80">
+  <rect width="240" height="80" fill="#FFFFFF" rx="12"/>
+  <g transform="translate(10, 0)">
+    <path d="M45 28l18 10v18L45 66 27 56V38z" fill="#D32F2F"/><path d="M45 36l10 6v10l-10 6-10-6V42z" fill="#FFF"/>
+    <text x="95" y="46" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="800" fill="#D32F2F" letter-spacing="1">NAFFCO</text>
+    <text x="95" y="60" font-family="'Helvetica Neue', Arial, sans-serif" font-size="8" font-weight="600" fill="#777777" letter-spacing="1.5">PASSION FOR PROTECTING</text>
+  </g>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 80" width="240" height="80">
+  <rect width="240" height="80" fill="#FFFFFF" rx="12"/>
+  <g transform="translate(10, 0)">
+    <circle cx="45" cy="50" r="20" fill="none" stroke="#007DB8" stroke-width="4"/><text x="45" y="56" font-family="sans-serif" font-weight="900" font-size="16" fill="#007DB8" text-anchor="middle">DELL</text>
+    <text x="95" y="46" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="800" fill="#007DB8" letter-spacing="1">DELL</text>
+    <text x="95" y="60" font-family="'Helvetica Neue', Arial, sans-serif" font-size="8" font-weight="600" fill="#777777" letter-spacing="1.5">Technologies</text>
+  </g>
+</svg>

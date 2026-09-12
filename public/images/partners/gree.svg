@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 80" width="240" height="80">
+  <rect width="240" height="80" fill="#FFFFFF" rx="12"/>
+  <g transform="translate(10, 0)">
+    <path d="M30 50c0-11 9-20 20-20s20 9 20 20-9 20-20 20h-5v-8h5c7 0 12-5 12-12s-5-12-12-12-12 5-12 12v5h-8v-5z" fill="#00A3E0"/>
+    <text x="95" y="46" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="800" fill="#00A3E0" letter-spacing="1">GREE</text>
+    <text x="95" y="60" font-family="'Helvetica Neue', Arial, sans-serif" font-size="8" font-weight="600" fill="#777777" letter-spacing="1.5">AIR CONDITIONING</text>
+  </g>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 80" width="240" height="80">
+  <rect width="240" height="80" fill="#FFFFFF" rx="12"/>
+  <g transform="translate(10, 0)">
+    <path d="M30 62L45 32L60 62H52L45 47L38 62H30Z" fill="#CC0000"/><path d="M41 55h8v5h-8z" fill="#CC0000"/>
+    <text x="95" y="46" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="800" fill="#CC0000" letter-spacing="1">AVAYA</text>
+    <text x="95" y="60" font-family="'Helvetica Neue', Arial, sans-serif" font-size="8" font-weight="600" fill="#777777" letter-spacing="1.5">COMMUNICATIONS</text>
+  </g>
+</svg>

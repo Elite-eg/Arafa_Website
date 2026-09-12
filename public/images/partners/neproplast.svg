@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 80" width="240" height="80">
+  <rect width="240" height="80" fill="#FFFFFF" rx="12"/>
+  <g transform="translate(10, 0)">
+    <circle cx="45" cy="50" r="16" fill="none" stroke="#0072CE" stroke-width="7"/><path d="M45 30v40" stroke="#0072CE" stroke-width="4"/>
+    <text x="95" y="46" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="800" fill="#0072CE" letter-spacing="1">NEPROPLAST</text>
+    <text x="95" y="60" font-family="'Helvetica Neue', Arial, sans-serif" font-size="8" font-weight="600" fill="#777777" letter-spacing="1.5">PIPE SYSTEMS</text>
+  </g>
+</svg>

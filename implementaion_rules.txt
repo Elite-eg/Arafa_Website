@@ -1,0 +1,168 @@
+# AL JAZIRA FOR IMDAD SMART COMPANY — WEBSITE DEVELOPMENT RULES (v2 — Simplified)
+This is the single reference file for building this website with Claude in VS Code. Follow every rule below consistently across the whole codebase.
+
+===================================================================
+## 1. TECH STACK
+===================================================================
+- **Next.js (App Router)** — TypeScript only, no `.js`/`.jsx`.
+- **next-intl** for internationalization. Site content is English-only for now, but ALL text must be pulled from translation files (never hardcoded strings in JSX) so Arabic can be added later just by adding an `ar.json` file — no code changes needed.
+- **Tailwind CSS** — theme values wired to CSS variables (see Section 3).
+- **Framer Motion** for all animations.
+- **react-icons** for all icons (pick ONE icon family, use it everywhere).
+
+===================================================================
+## 2. INTERNATIONALIZATION (next-intl)
+===================================================================
+- Structure:
+  ```
+  /messages
+    en.json        -> ALL site text lives here (nav, hero, about, services, projects, contact, footer, buttons, SEO strings)
+    (ar.json)       -> added later when Arabic is needed, same keys, translated values
+
+  /i18n
+    request.ts      -> next-intl config (locale detection/config)
+
+  /app
+    /[locale]
+      layout.tsx
+      page.tsx
+      /about/page.tsx
+      /services/page.tsx
+      /projects/page.tsx
+      /contact/page.tsx
+  ```
+- Even though only English exists right now, still route through `/[locale]/` (e.g. `/en/about`) with `en` as the default/only locale. This means when Arabic is added later, it's just a new JSON file + new locale in the config — **no component needs to be touched or rewritten.**
+- `en.json` should be organized by section/namespace, matching the site structure, e.g.:
+  ```json
+  {
+    "nav": { "home": "Home", "about": "About Us", "services": "Services", "projects": "Projects", "contact": "Contact" },
+    "hero": { "title": "...", "subtitle": "...", "cta": "Request a Quote" },
+    "about": { "heading": "About Us", "body": "...", "strengths": ["..."] },
+    "services": { "heading": "...", "items": [ { "title": "...", "description": "..." } ] },
+    "projects": { "heading": "...", "filterAll": "All Projects" },
+    "contact": { "heading": "...", "phone": "...", "email": "...", "address": "..." },
+    "footer": { "rights": "© {year} Al Jazira for Imdad Smart Company. All rights reserved." },
+    "seo": { "homeTitle": "...", "homeDescription": "..." }
+  }
+  ```
+- Never write English sentences directly inside `.tsx` files — always `t("namespace.key")` via `useTranslations()` / `getTranslations()`.
+- Non-text data that isn't "translatable copy" (like the raw projects list with client names, structured contact numbers, partner logos) can still live in typed `/data` files, but any **label/heading/button text** around that data comes from `en.json`.
+- Keep `dir="ltr"` for now (English), but structure CSS/layout so flipping to `dir="rtl"` later doesn't require rebuilding components — avoid hardcoding `left`/`right`, `ml-`/`mr-` where a logical alternative exists (`ps-`/`pe-`, `start`/`end` in Tailwind logical properties) so RTL support is close to a "flip a switch" later, not a rebuild.
+
+===================================================================
+## 3. COLORS & DESIGN TOKENS
+===================================================================
+- All colors defined as CSS variables in `/home/john/Imdad/app/globals.css`, then wired into `tailwind.config.ts` so they're usable as Tailwind classes (`bg-primary`, `text-accent`, etc.).
+- Never hardcode hex/rgb values inside components.
+- Base palette on the existing brand identity (line-art house/tree/field icon, warm neutral/taupe accents, clean whites, strong dark neutral for text). Red should be used sparingly (that's from firefighting photos, not the brand color).
+
+===================================================================
+## 4. RESPONSIVE & MOBILE-FIRST — THIS IS A REQUIREMENT, NOT OPTIONAL
+===================================================================
+This is a public-facing business website — most visitors will land on it from a phone (Google search, WhatsApp share, social links). **Mobile-first is mandatory:**
+
+- **Build every component for mobile screens FIRST**, then scale up using Tailwind's responsive prefixes (`sm:`, `md:`, `lg:`, `xl:`). Never design desktop-first and "shrink it down" as an afterthought.
+- Test and support at minimum these breakpoints:
+  - Mobile: 360px–480px
+  - Large mobile / small tablet: 481px–767px
+  - Tablet: 768px–1023px
+  - Desktop: 1024px–1439px
+  - Large desktop: 1440px+
+- **No horizontal scrolling ever**, at any breakpoint. Watch out for: fixed-width elements, long unbroken text/URLs, tables, and wide images.
+- Navigation: build a proper mobile hamburger menu (slide-in or dropdown) with Framer Motion — don't just hide the desktop nav and leave nothing usable on mobile.
+- Touch targets (buttons, links, icons) must be at least ~44x44px on mobile — don't make tap targets too small or too close together.
+- Images must be responsive (`next/image` with `fill` or proper `sizes` prop) — never a fixed-pixel image that overflows or looks tiny on mobile.
+- Typography must scale down properly on mobile (smaller heading sizes, adjusted line-height) — use responsive text classes (`text-2xl md:text-4xl lg:text-5xl`, etc.), not one fixed size for all screens.
+- Grids/layouts (services grid, projects grid, partners logos, team pyramid) must reflow: e.g. 1 column on mobile → 2 columns on tablet → 3–4 columns on desktop.
+- Forms (Contact page) must be fully usable on mobile: full-width inputs, large enough tap targets, correct input types (`type="tel"`, `type="email"`) to trigger the right mobile keyboard.
+- Sticky/fixed elements (header, floating WhatsApp/CTA button) must not overlap content or break layout on small screens.
+- Test real device widths in dev tools (iPhone SE, iPhone 14/15, common Android widths, iPad) before considering any page "done."
+
+===================================================================
+## 5. COMPONENT ARCHITECTURE
+===================================================================
+```
+/components
+  /shared            -> Button, Container, Section, Heading, Card, Header, Footer, Logo, MobileMenu
+  /home              -> HeroSection, AboutPreview, ServicesPreview  (only used on Home)
+  /about             -> AboutContent, TeamPyramid, MissionVision
+  /services          -> ServiceCard, ServicesList
+  /projects          -> ProjectCard, ProjectsGrid, ProjectFilter
+  /contact           -> ContactForm, ContactInfo
+
+/lib
+  formatters.ts       -> shared formatting helpers (phone, dates, text truncation, slugify)
+  constants.ts         -> non-translatable constants (raw phone number, email, social URLs)
+  utils.ts             -> generic helpers (cn/classnames merge, etc.)
+  animations.ts        -> shared Framer Motion variants (fadeInUp, staggerContainer, etc.)
+
+/data
+  projects.ts / services.ts / partners.ts / clients.ts / team.ts   -> typed structured data
+
+/types
+  index.ts             -> Project, Service, TeamMember, Partner, Client, NavItem, etc.
+
+/messages
+  en.json
+```
+- Reusable across 2+ pages → `/components/shared`. Only used on one page → stays in that page's own folder.
+- Every component: single responsibility, typed props (no `any`), composable via `children`/`className`.
+- No duplicated markup — extract to a component if copy-pasted twice.
+
+===================================================================
+## 6. ANIMATIONS (Framer Motion)
+===================================================================
+- Scroll-triggered entrance animations (`whileInView`, `viewport={{ once: true }}`), hover/tap micro-interactions, staggered hero reveal.
+- Short, consistent durations (0.4–0.6s), one shared easing curve, reused via `/lib/animations.ts`.
+- Subtle and professional — not flashy. Respect `prefers-reduced-motion`.
+- **On mobile, keep animations light** — avoid heavy parallax/complex motion that can lag on lower-end phones; prioritize smooth 60fps over fancy effects on small screens.
+
+===================================================================
+## 7. ICONS
+===================================================================
+- `react-icons` only, one consistent icon family sitewide, consistent sizing convention.
+
+===================================================================
+## 8. SEO
+===================================================================
+- Next.js Metadata API per page (unique `title`/`description`, sourced from `en.json` under a `seo` namespace), Open Graph + Twitter Card metadata.
+- JSON-LD `Organization`/`LocalBusiness` structured data (name, logo, address, phone, sameAs).
+- `app/sitemap.ts` + `app/robots.ts`.
+- Semantic HTML (`<h1>` once per page, proper heading hierarchy, `<nav>`, `<main>`, `<footer>`, `<section>`).
+- `next/image` everywhere with descriptive `alt` text.
+- Self-hosted fonts via `next/font`. Optimize Core Web Vitals — this also directly supports the mobile-first goal since mobile page speed is a major ranking factor.
+- Clean URLs (`/about`, `/services`, `/projects`, `/contact`, with locale prefix from next-intl).
+
+===================================================================
+## 9. CODE QUALITY
+===================================================================
+- TypeScript strict, no `any`. Server Components by default; `"use client"` only when truly needed (forms, mobile menu toggle, animation hooks).
+- No hardcoded English strings in JSX — always via `en.json` + next-intl.
+- Naming: Components `PascalCase.tsx`, lib files `camelCase.ts`.
+- Keep components under ~150–200 lines; split if bigger.
+- ESLint + Prettier, no unused imports, no leftover `console.log`.
+- Proper loading (`loading.tsx`), error (`error.tsx`), and not-found (`not-found.tsx`) states per route.
+
+===================================================================
+## 10. ACCESSIBILITY
+===================================================================
+- Full keyboard navigation, visible focus states.
+- `alt` text on all images (empty `alt=""` for decorative ones).
+- Sufficient color contrast against the CSS variable palette.
+- ARIA labels on icon-only buttons (hamburger menu, social icons).
+- Respect `prefers-reduced-motion`.
+
+===================================================================
+## 11. ADDITIONAL RECOMMENDATIONS
+===================================================================
+- Favicon/app icons generated from the brand's house/tree line-art mark (`app/icon.png`, `app/apple-icon.png`).
+- Floating WhatsApp / "Request a Quote" CTA button (common expectation for KSA contracting companies) — must also be mobile-friendly (doesn't block content, easy to tap).
+- Google Maps embed on Contact page once exact address/coordinates are confirmed.
+- Environment variables for any API keys / contact form endpoint (`.env.local`, never hardcoded).
+- Request real high-resolution project photos from the client; optimize and store under `/public/images` with descriptive filenames.
+- Target Lighthouse 90+ on Performance, Accessibility, Best Practices, SEO — **run the mobile Lighthouse audit specifically**, not just desktop, since mobile is the priority.
+- Resolve content discrepancies from the reference content file (correct phone number, remove "Ingoude Company" leftover branding, deduplicate project list) before publishing — content should go into `en.json` / `/data` already cleaned up.
+
+===================================================================
+END OF RULES
+===================================================================

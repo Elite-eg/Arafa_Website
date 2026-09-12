@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 80" width="240" height="80">
+  <rect width="240" height="80" fill="#FFFFFF" rx="12"/>
+  <g transform="translate(10, 0)">
+    <rect x="30" y="35" width="30" height="30" rx="6" fill="#E30613"/><path d="M40 42h10v4H40zM40 50h10v4H40z" fill="#FFF"/>
+    <text x="95" y="46" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="800" fill="#E30613" letter-spacing="1">alfanar</text>
+    <text x="95" y="60" font-family="'Helvetica Neue', Arial, sans-serif" font-size="8" font-weight="600" fill="#777777" letter-spacing="1.5">ELECTRICAL</text>
+  </g>
+</svg>

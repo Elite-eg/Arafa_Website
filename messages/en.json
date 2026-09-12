@@ -1,0 +1,448 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About Us",
+    "projects": "Projects",
+    "partners": "Partners",
+    "contact": "Contact Us",
+    "getQuote": "Get a Quote"
+  },
+  "hero": {
+    "badge": "45+ Years of Engineering Excellence",
+    "title": "Building the Future",
+    "titleHighlight": "with Smart Solutions",
+    "subtitle": "Al Jazira for Imdad Smart Company is a leading MEP contractor in the Gulf region, delivering world-class mechanical, electrical, and plumbing solutions with over four decades of proven excellence.",
+    "cta": "Explore Our Services",
+    "ctaSecondary": "View Projects",
+    "scrollDown": "Scroll to explore"
+  },
+  "about": {
+    "badge": "Who We Are",
+    "heading": "Engineering Excellence",
+    "headingHighlight": "Since 1979",
+    "description": "With nearly five decades of expertise in Gulf markets, Al Jazira for Imdad Smart Company has rapidly expanded and grown from strength to strength, delivering exceptional performance and earning a reputation as a highly dependable specialist MEP contractor.",
+    "descriptionExtra": "We deliver comprehensive MEP packages through our in-house engineers, minimizing reliance on subcontractors and ensuring better quality, service, and on-time delivery.",
+    "learnMore": "Learn More About Us",
+    "stats": {
+      "years": "45+",
+      "yearsLabel": "Years Experience",
+      "projects": "100+",
+      "projectsLabel": "Projects Completed",
+      "selfPerformed": "85%",
+      "selfPerformedLabel": "Self-Performed Work",
+      "partners": "30+",
+      "partnersLabel": "Industry Partners"
+    }
+  },
+  "services": {
+    "badge": "What We Do",
+    "heading": "Our Core",
+    "headingHighlight": "Services",
+    "subtitle": "Delivering complete, collaborative, and end-to-end MEP solutions that bring life to new buildings and sustain existing ones.",
+    "viewAll": "View All Services",
+    "items": [
+      {
+        "title": "General Contracting",
+        "description": "Execution of new construction projects adhering to the highest quality standards, with comprehensive project management from design to delivery.",
+        "icon": "building"
+      },
+      {
+        "title": "MEP Works",
+        "description": "Complete mechanical, electrical, and plumbing engineering services with innovative solutions to improve energy efficiency and reduce operating costs.",
+        "icon": "bolt"
+      },
+      {
+        "title": "Firefighting Systems",
+        "description": "Design and implementation of firefighting systems according to international standards, with integrated safety solutions to protect lives and property.",
+        "icon": "fire"
+      },
+      {
+        "title": "Smart Systems",
+        "description": "Audio visual, smart automation, security, IT networking, and building management system integration for modern intelligent buildings.",
+        "icon": "cpu"
+      }
+    ]
+  },
+  "stats": {
+    "heading": "Trusted by Industry Leaders",
+    "subtitle": "Our numbers speak for themselves — decades of reliable MEP solutions across the Gulf region.",
+    "items": [
+      { "value": "45+", "label": "Years of Experience" },
+      { "value": "100+", "label": "Completed Projects" },
+      { "value": "85%", "label": "Self-Performed Work" },
+      { "value": "21+", "label": "MEP Disciplines" }
+    ]
+  },
+  "projects": {
+    "badge": "Our Portfolio",
+    "heading": "Featured",
+    "headingHighlight": "Projects",
+    "subtitle": "A showcase of our most prestigious MEP construction and smart systems projects across the Gulf region.",
+    "viewAll": "View All Projects",
+    "items": [
+      {
+        "title": "Princess Noura University",
+        "category": "Low Current Systems",
+        "location": "Riyadh, KSA"
+      },
+      {
+        "title": "Sofitel Makkah Hotel",
+        "category": "Full MEP Works",
+        "location": "Makkah, KSA"
+      },
+      {
+        "title": "Stella Hotel (32 Floors)",
+        "category": "Full MEP Works",
+        "location": "Dubai, UAE"
+      },
+      {
+        "title": "Roads & Transport Authority",
+        "category": "Data Center MEP",
+        "location": "Dubai, UAE"
+      },
+      {
+        "title": "King Salman Oasis of Science",
+        "category": "Full MEP Works",
+        "location": "Riyadh, KSA"
+      },
+      {
+        "title": "Al Maqam Towers (A-D)",
+        "category": "Full MEP Works",
+        "location": "Makkah, KSA"
+      }
+    ]
+  },
+  "partners": {
+    "heading": "Trusted Partners",
+    "subtitle": "We collaborate with world-leading brands to deliver the highest quality solutions."
+  },
+  "cta": {
+    "heading": "Ready to Build",
+    "headingHighlight": "Your Next Project?",
+    "subtitle": "Let our 45+ years of MEP expertise work for your next construction or infrastructure project. Get in touch for a free consultation.",
+    "button": "Contact Us Today",
+    "buttonSecondary": "Call Us Now"
+  },
+  "footer": {
+    "description": "A leading MEP construction company in the Gulf region, delivering world-class mechanical, electrical, and plumbing solutions with over 45 years of experience.",
+    "quickLinks": "Quick Links",
+    "ourServices": "Our Services",
+    "contactInfo": "Contact Info",
+    "generalContracting": "General Contracting",
+    "mepWorks": "MEP Works",
+    "firefighting": "Firefighting Systems",
+    "smartSystems": "Smart Systems Integration",
+    "rights": "© {year} Al Jazira for Imdad Smart Company. All rights reserved.",
+    "subsidiary": "A subsidiary of Arafa Engineering (ARFA)"
+  },
+  "whatsapp": {
+    "tooltip": "Chat with us on WhatsApp"
+  },
+  "aboutPage": {
+    "header": {
+      "title": "About Us",
+      "subtitle": "Discover the story behind 45+ years of MEP engineering excellence in the Gulf region."
+    },
+    "story": {
+      "badge": "Our Story",
+      "heading": "Engineering Excellence",
+      "headingHighlight": "Since 1979",
+      "description": "Al Jazira for Imdad Smart Company (formerly known as IMDAD Group) is a leading name in the MEP construction sector in the Gulf region. With over 45 years of proven experience, the company continues to specialize in Mechanical and Electrical construction, offering complete, collaborative, and end-to-end solutions that bring life to new buildings and sustain existing ones.",
+      "descriptionExtra": "Starting as IMDAD sanitary works in KSA, the company diversified and constantly followed the market. For over 45 years, the team has been reinforcing its international presence in the Gulf, expanding its in-house expertise and enlarging its scope of MEP Engineering services.",
+      "founderQuote": "Developing and serving society with the highest levels of professional integrity and commitment.",
+      "founderName": "Mr. Rashwan Mahmoud — Founder",
+      "yearsLabel": "Years Experience"
+    },
+    "strengths": {
+      "badge": "Why Choose Us",
+      "heading": "Our Core",
+      "headingHighlight": "Strengths",
+      "subtitle": "Nearly five decades of building trust, delivering quality, and exceeding expectations across the Gulf region.",
+      "items": [
+        {
+          "title": "Gulf Market Expertise",
+          "description": "Nearly five decades of deep expertise operating across Gulf markets, understanding local requirements and international standards."
+        },
+        {
+          "title": "Proven Track Record",
+          "description": "Over 100 completed projects with a reputation for exceptional performance and dependable specialist MEP contracting."
+        },
+        {
+          "title": "Quality & Reliability",
+          "description": "Strong reputation for quality, reliability, and timely delivery — strictly conforming to international standards."
+        },
+        {
+          "title": "In-House Execution",
+          "description": "85% of MEP work is self-performed by our in-house engineers, minimizing risks and ensuring consistent quality."
+        }
+      ]
+    },
+    "mission": {
+      "heading": "Our Mission",
+      "description": "To safely deliver world-class Quality MEP projects and infrastructure projects on time, promoting environmental protection and sustainable community development.",
+      "pillars": [
+        "Engineering Excellence — Providing comprehensive and effective solutions across all mechanical, electrical, and plumbing works.",
+        "Safety First — Strictly following occupational health and safety standards to protect individuals and assets at all sites.",
+        "Sustainability — Implementing eco-friendly solutions that reduce energy consumption and contribute to sustainable community development.",
+        "Customer Focus — Understanding client needs and adapting services to ensure full satisfaction with tailored solutions.",
+        "Innovation — Developing innovative technologies and solutions to enhance project efficiency without compromising quality."
+      ]
+    },
+    "vision": {
+      "heading": "Our Vision",
+      "description": "To become a regional market leader in the MEP Construction Industry, providing engineering excellence to valued clients through commitment to delivering best practices in corporate governance and transparency.",
+      "strategies": [
+        {
+          "title": "Expanding Core Competencies",
+          "description": "Strengthening our electro-mechanical capabilities and broadening our multi-disciplined EPIC service portfolio."
+        },
+        {
+          "title": "Unique Technologies",
+          "description": "Identifying and producing unique technologies that set us apart and deliver innovative solutions for our clients."
+        },
+        {
+          "title": "Strategic Partnerships",
+          "description": "Aligning with key partners that enhance our capabilities to produce and distribute cutting-edge engineering ideas."
+        }
+      ]
+    },
+    "team": {
+      "badge": "Our Team",
+      "heading": "Meet Our",
+      "headingHighlight": "Team",
+      "subtitle": "A solid base of skilled engineers, an effective management team, and a dedicated labor force support our growth.",
+      "description": "In today's dynamic marketplace, IMDAD needs people who are innovative, passionate about the business, and who make a difference every day. Our team structure ensures clear accountability and efficient project delivery across all levels.",
+      "levels": [
+        {
+          "title": "Top Management",
+          "roles": ["Chairman", "Chief Executive Officer", "Commercial Director"]
+        },
+        {
+          "title": "Higher Level Management",
+          "roles": ["Project Manager", "Engineering Manager", "Design Manager", "QA/QC Manager", "HSE Manager", "Procurement Manager"]
+        },
+        {
+          "title": "Middle Level — Supervision",
+          "roles": ["Construction Manager", "Site Manager", "Project Engineer", "Site Engineer"]
+        },
+        {
+          "title": "Operations — Workforce",
+          "roles": ["Electricians", "Pipe Fitters", "Technicians", "Specialists"]
+        }
+      ]
+    }
+  },
+  "contactPage": {
+    "header": {
+      "title": "Contact Us",
+      "subtitle": "We are always delighted to hear from you. Get in touch for a free consultation."
+    },
+    "info": {
+      "badge": "Get In Touch",
+      "heading": "Let's Start a",
+      "headingHighlight": "Conversation",
+      "description": "Whether you have a project inquiry, need a quotation, or simply want to learn more about our services — our team is ready to help.",
+      "phone": {
+        "label": "Phone"
+      },
+      "email": {
+        "label": "Email"
+      },
+      "address": {
+        "label": "Address"
+      },
+      "hours": {
+        "label": "Working Hours",
+        "value": "Sunday – Thursday, 8:00 AM – 5:00 PM"
+      }
+    },
+    "form": {
+      "heading": "Send Us a Message",
+      "subtitle": "Fill out the form below and we'll get back to you as soon as possible.",
+      "name": "Full Name",
+      "namePlaceholder": "Enter your full name",
+      "email": "Email Address",
+      "emailPlaceholder": "Enter your email address",
+      "phone": "Phone Number",
+      "phonePlaceholder": "Enter your phone number",
+      "subject": "Subject",
+      "subjectPlaceholder": "How can we help you?",
+      "message": "Message",
+      "messagePlaceholder": "Tell us about your project or inquiry...",
+      "submit": "Send Message"
+    },
+    "map": {
+      "badge": "Our Location",
+      "heading": "Find",
+      "headingHighlight": "Our Office",
+      "subtitle": "Visit us in Makkah Al Mokaramah, KSA — we'd love to meet you in person.",
+      "iframeTitle": "Al Jazira for Imdad Smart Company Office Location",
+      "cardTitle": "Office Location",
+      "addressLabel": "Address",
+      "phoneLabel": "Phone",
+      "emailLabel": "Email",
+      "directionsButton": "Get Directions"
+    }
+  },
+  "partnersPage": {
+    "header": {
+      "title": "Our Partners & Clients",
+      "subtitle": "Collaborating with global industry leaders and trusted Gulf institutions to deliver world-class MEP engineering."
+    },
+    "intro": {
+      "badge": "Strategic Alliances",
+      "heading": "Powered by World-Class",
+      "headingHighlight": "Technology & Brands",
+      "subtitle": "Over 45 years, Al Jazira for Imdad Smart Company has built robust relationships with leading global manufacturers, system integrators, and project developers across the Gulf."
+    },
+    "categories": {
+      "all": "All Partners",
+      "electrical": "Electrical & Cabling",
+      "hvac": "HVAC & Climate Control",
+      "plumbing": "Firefighting & Plumbing",
+      "systems": "Smart Systems & Integration",
+      "taglines": {
+        "electrical": "Electrical & Power Systems",
+        "hvac": "HVAC & Climate Control",
+        "plumbing": "Plumbing & Fire Protection",
+        "systems": "Smart Systems & Integration"
+      }
+    },
+    "value": {
+      "badge": "Why Strategic Partnerships Matter",
+      "heading": "Engineering Excellence",
+      "headingHighlight": "Guaranteed",
+      "subtitle": "Our direct vendor relationships ensure high performance, cost efficiency, and strict compliance with international standards.",
+      "standardCompliant": "Standard Compliant",
+      "metricsBanner": {
+        "title": "45+ Years of International Vendor Relationships",
+        "description": "Our extensive supply network across Europe, the US, and Asia guarantees genuine products, factory-direct warranties, and seamless logistics.",
+        "stat1Label": "Global Brands",
+        "stat2Label": "OEM Genuine",
+        "stat3Label": "In-House Works"
+      },
+      "items": [
+        {
+          "title": "Direct OEM Support & Warranties",
+          "description": "Direct access to original equipment manufacturers guarantees authentic components, extended warranties, and priority factory technical support."
+        },
+        {
+          "title": "International Compliance & Certifications",
+          "description": "All partner equipment and materials meet strict IEEE, NFPA, ASHRAE, and Gulf municipality engineering standards."
+        },
+        {
+          "title": "Cutting-Edge Smart Building Tech",
+          "description": "Integration with tier-1 automation and low-current vendors enables state-of-the-art building management and energy efficiency."
+        },
+        {
+          "title": "Streamlined Supply Chain",
+          "description": "Established procurement channels ensure on-time delivery of critical machinery, minimizing project downtime and cost overruns."
+        }
+      ]
+    },
+    "grid": {
+      "showing": "Showing <strong class=\"text-primary font-semibold\">{count}</strong> verified global partner brands",
+      "resetFilters": "Reset Filters",
+      "noMatching": "No partners matching \"{query}\"",
+      "emptyStateSubtitle": "Try searching with another keyword or select a different category filter.",
+      "showAllPartners": "Show All Partners",
+      "searchPlaceholder": "Search partner or brand..."
+    },
+    "card": {
+      "logoAlt": "{name} logo"
+    },
+    "clients": {
+      "badge": "Valued Clients",
+      "heading": "Trusted by Landmark",
+      "headingHighlight": "Projects & Institutions",
+      "subtitle": "We take immense pride in delivering MEP & infrastructure solutions for major government ministries, prestigious hotel towers, and leading corporate groups.",
+      "trustedPartner": "Trusted Partner",
+      "completedProject": "Completed Project",
+      "items": {
+        "hajj-ministry": {
+          "name": "Ministry of Hajj and Umrah",
+          "category": "Government & Public Infrastructure",
+          "location": "Saudi Arabia",
+          "scope": "Public Facilities MEP & Smart Systems"
+        },
+        "nwc": {
+          "name": "National Water Company (NWC)",
+          "category": "Water & Utilities Infrastructure",
+          "location": "Makkah, KSA",
+          "scope": "Administrative Building MEP Upgrade"
+        },
+        "rta-dubai": {
+          "name": "Roads & Transport Authority (RTA)",
+          "category": "Transport & Datacenter Infrastructure",
+          "location": "Dubai, UAE",
+          "scope": "Data Center MEP Infrastructure"
+        },
+        "pnu": {
+          "name": "Princess Noura University (PNU)",
+          "category": "Higher Education Infrastructure",
+          "location": "Riyadh, KSA",
+          "scope": "Structured Cabling & Low Current Systems"
+        },
+        "olayan": {
+          "name": "Olayan Group",
+          "category": "Real Estate & Hospitality",
+          "location": "Makkah / KSA",
+          "scope": "Olayan Towers & Golden Hotel MEP Works"
+        },
+        "attameer": {
+          "name": "ATTAMEER Construction",
+          "category": "High-Rise Commercial & Residential",
+          "location": "Makkah, KSA",
+          "scope": "Al Maqam Towers (A-D) & Al Naseem Towers"
+        },
+        "bafel": {
+          "name": "Omar Saeed Bafel Co. (OBSC)",
+          "category": "Hospitality & Hotel Towers",
+          "location": "Makkah, KSA",
+          "scope": "12+ Janadriah & Al Shrooq Hotel Towers"
+        },
+        "al-zaydi": {
+          "name": "Al Zaydi Group",
+          "category": "Industrial & Commercial Facilities",
+          "location": "Makkah, KSA",
+          "scope": "Hyper Abraj, Concrete Factory & Hotel MEP"
+        },
+        "saudi-post": {
+          "name": "Saudi Post",
+          "category": "Government Logistics",
+          "location": "Jeddah, KSA",
+          "scope": "Postal Facility MEP Upgrade & Systems"
+        },
+        "merrill-lynch": {
+          "name": "Bank of America (Merrill Lynch)",
+          "category": "Banking & Financial Services",
+          "location": "Riyadh, KSA",
+          "scope": "Corporate Office MEP Installation"
+        },
+        "mobily": {
+          "name": "Mobily Telecommunications",
+          "category": "Telecom & Datacenter",
+          "location": "KSA",
+          "scope": "Terminal Building MEP & Low Current"
+        },
+        "al-jomaih": {
+          "name": "Al Jomaih Automotive (GM)",
+          "category": "Automotive Commercial",
+          "location": "KSA",
+          "scope": "Cadillac Flagship Showroom MEP"
+        }
+      }
+    }
+  },
+  "seo": {
+    "homeTitle": "Al Jazira for Imdad Smart Company | MEP Contracting & Smart Systems",
+    "homeDescription": "Leading MEP construction company in the Gulf region with 45+ years of experience. General contracting, mechanical, electrical, plumbing, firefighting systems, and smart building solutions in KSA.",
+    "aboutTitle": "About Us | Al Jazira for Imdad Smart Company",
+    "aboutDescription": "Learn about Al Jazira for Imdad Smart Company — 45+ years of MEP engineering excellence in the Gulf region. Our mission, vision, strengths, and team.",
+    "partnersTitle": "Our Partners & Clients | Al Jazira for Imdad Smart Company",
+    "partnersDescription": "Explore our strategic global partners and prestigious client portfolio across Saudi Arabia and the Gulf region.",
+    "contactTitle": "Contact Us | Al Jazira for Imdad Smart Company",
+    "contactDescription": "Get in touch with Al Jazira for Imdad Smart Company. Request a quotation, inquire about our MEP services, or visit our office in Makkah, KSA."
+  }
+}

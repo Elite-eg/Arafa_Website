@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 80" width="240" height="80">
+  <rect width="240" height="80" fill="#FFFFFF" rx="12"/>
+  <g transform="translate(10, 0)">
+    <circle cx="45" cy="50" r="18" fill="#A50034"/><path d="M45 40v10h10" stroke="#FFF" stroke-width="3" fill="none"/><circle cx="40" cy="43" r="2.5" fill="#FFF"/>
+    <text x="95" y="46" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="800" fill="#A50034" letter-spacing="1">LG</text>
+    <text x="95" y="60" font-family="'Helvetica Neue', Arial, sans-serif" font-size="8" font-weight="600" fill="#777777" letter-spacing="1.5">Life's Good</text>
+  </g>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 80" width="240" height="80">
+  <rect width="240" height="80" fill="#FFFFFF" rx="12"/>
+  <g transform="translate(10, 0)">
+    <g fill="#CF0A2C"><path d="M45 32c-3 5-3 12 0 17 3-5 3-12 0-17z"/><path d="M45 32c-3 5-3 12 0 17 3-5 3-12 0-17z" transform="rotate(45 45 45)"/><path d="M45 32c-3 5-3 12 0 17 3-5 3-12 0-17z" transform="rotate(-45 45 45)"/><path d="M45 32c-3 5-3 12 0 17 3-5 3-12 0-17z" transform="rotate(90 45 45)"/><path d="M45 32c-3 5-3 12 0 17 3-5 3-12 0-17z" transform="rotate(-90 45 45)"/></g>
+    <text x="95" y="46" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="800" fill="#CF0A2C" letter-spacing="1">HUAWEI</text>
+    <text x="95" y="60" font-family="'Helvetica Neue', Arial, sans-serif" font-size="8" font-weight="600" fill="#777777" letter-spacing="1.5">ENTERPRISE</text>
+  </g>
+</svg>

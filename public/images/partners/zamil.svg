@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 80" width="240" height="80">
+  <rect width="240" height="80" fill="#FFFFFF" rx="12"/>
+  <g transform="translate(10, 0)">
+    <path d="M30 35h30l-20 20h20v8H30l20-20H30z" fill="#003366"/><circle cx="65" cy="38" r="4" fill="#E30613"/>
+    <text x="95" y="46" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="800" fill="#003366" letter-spacing="1">ZAMIL</text>
+    <text x="95" y="60" font-family="'Helvetica Neue', Arial, sans-serif" font-size="8" font-weight="600" fill="#777777" letter-spacing="1.5">AIR CONDITIONERS</text>
+  </g>
+</svg>
