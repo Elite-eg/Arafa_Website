@@ -40,9 +40,9 @@ export const metadata: Metadata = {
   description:
     "Leading MEP construction company in the Gulf region with 45+ years of experience. General contracting, mechanical, electrical, plumbing, firefighting systems, and smart building solutions in KSA.",
   icons: {
-    icon: "/favicon.ico.svg",
-    shortcut: "/favicon.ico.svg",
-    apple: "/favicon.ico.svg",
+    icon: "/images/logo-light.png",
+    shortcut: "/images/logo-light.png",
+    apple: "/images/logo-light.png",
   },
   openGraph: {
     type: "website",

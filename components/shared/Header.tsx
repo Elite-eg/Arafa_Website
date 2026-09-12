@@ -10,6 +10,7 @@ import { cn } from "@/lib/utils";
 import { fadeInDown } from "@/lib/animations";
 import MobileMenu from "./MobileMenu";
 import Link from "next/link";
+import Image from "next/image";
 import { ButtonLink } from "@/components/shared/buttons";
 
 export default function Header() {
@@ -60,43 +61,38 @@ export default function Header() {
         className={cn(
           "fixed top-0 start-0 end-0 z-50 transition-all duration-500",
           scrolled
-            ? "glass-effect shadow-soft border-0 py-5"
-            : "bg-transparent py-5"
+            ? "glass-effect shadow-soft border-0 py-1"
+            : "bg-transparent py-1"
         )}
       >
         <div className="container-custom flex items-center justify-between">
           {/* Logo */}
           <Link href="/home" className="flex items-center gap-3 group">
-            <div className="relative">
-              <div
+            <div className="relative w-[100px] h-[80px] md:w-[220px] md:h-[80px]">
+              {/* Light logo (for transparent/dark background - before scroll) */}
+              <Image
+                src="/images/logo-light.png"
+                alt="Aljazira for Imdad Smart Company"
+                fill
                 className={cn(
-                  "w-10 h-10 md:w-12 md:h-12 rounded-xl flex items-center justify-center font-heading font-bold text-lg md:text-xl transition-all duration-300",
-                  scrolled
-                    ? "bg-primary text-white"
-                    : "bg-white/[0.08] text-white backdrop-blur-sm border border-white/[0.12]"
+                  "object-contain transition-opacity duration-500",
+                  scrolled ? "opacity-0" : "opacity-100"
                 )}
-              >
-                AJ
-              </div>
-              <div className="absolute -bottom-0.5 -end-0.5 w-3 h-3 rounded-full bg-accent animate-pulse-slow" />
-            </div>
-            <div className="flex flex-col">
-              <span
+                priority
+                sizes="160px"
+              />
+              {/* Dark logo (for glass-effect/light background - after scroll) */}
+              <Image
+                src="/images/logo.png"
+                alt="Aljazira for Imdad Smart Company"
+                fill
                 className={cn(
-                  "font-heading font-bold text-sm md:text-base tracking-wide transition-colors duration-300",
-                  scrolled ? "text-primary" : "text-white"
+                  "object-contain transition-opacity duration-500",
+                  scrolled ? "opacity-100" : "opacity-0"
                 )}
-              >
-                ALJAZIRA
-              </span>
-              <span
-                className={cn(
-                  "text-[10px] md:text-xs tracking-widest uppercase transition-colors duration-300",
-                  scrolled ? "text-content-muted" : "text-white/50"
-                )}
-              >
-                IMDAD SMART
-              </span>
+                priority
+                sizes="160px"
+              />
             </div>
           </Link>
 

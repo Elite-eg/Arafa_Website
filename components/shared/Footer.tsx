@@ -16,6 +16,7 @@ import {
 import { NAV_LINKS, COMPANY, SOCIAL_LINKS } from "@/lib/constants";
 import { fadeInUp, staggerContainer, viewportOnce } from "@/lib/animations";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Footer() {
   const t = useTranslations("footer");
@@ -45,17 +46,15 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-12">
           {/* Company Info */}
           <motion.div variants={fadeInUp} className="lg:col-span-1">
-            <div className="flex items-center gap-3 mb-6">
-              <div className="w-12 h-12 rounded-xl bg-accent flex items-center justify-center font-heading font-bold text-lg text-primary-dark">
-                AJ
-              </div>
-              <div>
-                <div className="font-heading font-bold text-base tracking-wide">
-                  ALJAZIRA
-                </div>
-                <div className="text-xs tracking-widest uppercase text-white/40">
-                  IMDAD SMART
-                </div>
+            <div className="flex items-start gap-3 mb-2">
+              <div className="relative w-[250px] h-[108px]">
+                <Image
+                  src="/images/logo-light.png"
+                  alt="Aljazira for Imdad Smart Company"
+                  fill
+                  className="object-contain object-left"
+                  sizes="160px"
+                />
               </div>
             </div>
             <p className="text-white/50 text-sm leading-relaxed mb-6">
