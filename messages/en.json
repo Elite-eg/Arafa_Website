@@ -342,7 +342,7 @@
       ]
     },
     "grid": {
-      "showing": "Showing <strong class=\"text-primary font-semibold\">{count}</strong> verified global partner brands",
+      "showing": "Showing <strong>{count}</strong> verified global partner brands",
       "resetFilters": "Reset Filters",
       "noMatching": "No partners matching \"{query}\"",
       "emptyStateSubtitle": "Try searching with another keyword or select a different category filter.",

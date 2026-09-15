@@ -1,4 +1,9 @@
-export type PartnerCategory = "all" | "electrical" | "hvac" | "plumbing" | "systems";
+export type PartnerCategory =
+  | "all"
+  | "electrical"
+  | "hvac"
+  | "plumbing"
+  | "systems";
 
 export interface PartnerItem {
   id: string;
@@ -10,6 +15,23 @@ export interface PartnerItem {
   tagline?: string;
 }
 
+import {
+  HiOutlineBuildingLibrary,
+  HiOutlineBuildingOffice2,
+  HiOutlineAcademicCap,
+  HiOutlineCurrencyDollar,
+  HiOutlineGlobeAsiaAustralia,
+} from "react-icons/hi2";
+
+export interface ClientItem {
+  id: string;
+  name: string;
+  category: string;
+  location: string;
+  scope: string;
+  icon: React.ElementType;
+}
+
 export const PARTNER_ITEMS: PartnerItem[] = [
   // Electrical
   {
@@ -17,7 +39,8 @@ export const PARTNER_ITEMS: PartnerItem[] = [
     name: "Schneider Electric",
     category: "electrical",
     logo: "/images/partners/schneider-electric.png",
-    description: "Energy management & low-voltage electrical distribution systems",
+    description:
+      "Energy management & low-voltage electrical distribution systems",
     featured: true,
     tagline: "Tier-1 OEM Partner",
   },
@@ -26,7 +49,8 @@ export const PARTNER_ITEMS: PartnerItem[] = [
     name: "ABB",
     category: "electrical",
     logo: "/images/partners/abb.png",
-    description: "Electrification products, MV switchgears & power distribution",
+    description:
+      "Electrification products, MV switchgears & power distribution",
     featured: true,
     tagline: "Tier-1 OEM Partner",
   },
@@ -35,7 +59,8 @@ export const PARTNER_ITEMS: PartnerItem[] = [
     name: "Siemens",
     category: "electrical",
     logo: "/images/partners/siemens.png",
-    description: "Industrial automation, circuit breakers & electrical engineering",
+    description:
+      "Industrial automation, circuit breakers & electrical engineering",
     featured: true,
     tagline: "Tier-1 OEM Partner",
   },
@@ -44,7 +69,8 @@ export const PARTNER_ITEMS: PartnerItem[] = [
     name: "Legrand",
     category: "electrical",
     logo: "/images/partners/legrand.png",
-    description: "Cable management, power distribution & electrical wiring devices",
+    description:
+      "Cable management, power distribution & electrical wiring devices",
     tagline: "Certified Supplier",
   },
   {
@@ -86,7 +112,8 @@ export const PARTNER_ITEMS: PartnerItem[] = [
     name: "Carrier",
     category: "hvac",
     logo: "/images/partners/carrier.png",
-    description: "Commercial chillers, air handling units & central climate control",
+    description:
+      "Commercial chillers, air handling units & central climate control",
     featured: true,
     tagline: "Tier-1 OEM Partner",
   },
@@ -95,7 +122,8 @@ export const PARTNER_ITEMS: PartnerItem[] = [
     name: "Trane",
     category: "hvac",
     logo: "/images/partners/trane.png",
-    description: "Eco-friendly commercial HVAC systems & chilled water plant controls",
+    description:
+      "Eco-friendly commercial HVAC systems & chilled water plant controls",
     featured: true,
     tagline: "Tier-1 OEM Partner",
   },
@@ -148,7 +176,8 @@ export const PARTNER_ITEMS: PartnerItem[] = [
     name: "Naffco",
     category: "plumbing",
     logo: "/images/partners/naffco.svg",
-    description: "NFPA-certified fire pumps, sprinklers & fire protection networks",
+    description:
+      "NFPA-certified fire pumps, sprinklers & fire protection networks",
     featured: true,
     tagline: "NFPA Certified",
   },
@@ -183,7 +212,8 @@ export const PARTNER_ITEMS: PartnerItem[] = [
     name: "Cisco",
     category: "systems",
     logo: "/images/partners/cisco.png",
-    description: "Enterprise networking, data center infrastructure & IP systems",
+    description:
+      "Enterprise networking, data center infrastructure & IP systems",
     featured: true,
     tagline: "Tier-1 OEM Partner",
   },
@@ -210,7 +240,8 @@ export const PARTNER_ITEMS: PartnerItem[] = [
     name: "Bosch",
     category: "systems",
     logo: "/images/partners/bosch.png",
-    description: "IP video surveillance, access control & public address systems",
+    description:
+      "IP video surveillance, access control & public address systems",
     featured: true,
     tagline: "Tier-1 OEM Partner",
   },
@@ -261,5 +292,104 @@ export const PARTNER_ITEMS: PartnerItem[] = [
     logo: "/images/partners/axis.svg",
     description: "Advanced IP security cameras & smart access control",
     tagline: "Certified Integration",
+  },
+];
+
+export const CLIENTS_LIST: ClientItem[] = [
+  {
+    id: "hajj-ministry",
+    name: "Ministry of Hajj and Umrah",
+    category: "Government & Public Infrastructure",
+    location: "Saudi Arabia",
+    scope: "Public Facilities MEP & Smart Systems",
+    icon: HiOutlineBuildingLibrary,
+  },
+  {
+    id: "nwc",
+    name: "National Water Company (NWC)",
+    category: "Water & Utilities Infrastructure",
+    location: "Makkah, KSA",
+    scope: "Administrative Building MEP Upgrade",
+    icon: HiOutlineGlobeAsiaAustralia,
+  },
+  {
+    id: "rta-dubai",
+    name: "Roads & Transport Authority (RTA)",
+    category: "Transport & Datacenter Infrastructure",
+    location: "Dubai, UAE",
+    scope: "Data Center MEP Infrastructure",
+    icon: HiOutlineBuildingOffice2,
+  },
+  {
+    id: "pnu",
+    name: "Princess Noura University (PNU)",
+    category: "Higher Education Infrastructure",
+    location: "Riyadh, KSA",
+    scope: "Structured Cabling & Low Current Systems",
+    icon: HiOutlineAcademicCap,
+  },
+  {
+    id: "olayan",
+    name: "Olayan Group",
+    category: "Real Estate & Hospitality",
+    location: "Makkah / KSA",
+    scope: "Olayan Towers & Golden Hotel MEP Works",
+    icon: HiOutlineBuildingOffice2,
+  },
+  {
+    id: "attameer",
+    name: "ATTAMEER Construction",
+    category: "High-Rise Commercial & Residential",
+    location: "Makkah, KSA",
+    scope: "Al Maqam Towers (A-D) & Al Naseem Towers",
+    icon: HiOutlineBuildingOffice2,
+  },
+  {
+    id: "bafel",
+    name: "Omar Saeed Bafel Co. (OBSC)",
+    category: "Hospitality & Hotel Towers",
+    location: "Makkah, KSA",
+    scope: "12+ Janadriah & Al Shrooq Hotel Towers",
+    icon: HiOutlineBuildingOffice2,
+  },
+  {
+    id: "al-zaydi",
+    name: "Al Zaydi Group",
+    category: "Industrial & Commercial Facilities",
+    location: "Makkah, KSA",
+    scope: "Hyper Abraj, Concrete Factory & Hotel MEP",
+    icon: HiOutlineBuildingOffice2,
+  },
+  {
+    id: "saudi-post",
+    name: "Saudi Post",
+    category: "Government Logistics",
+    location: "Jeddah, KSA",
+    scope: "Postal Facility MEP Upgrade & Systems",
+    icon: HiOutlineBuildingLibrary,
+  },
+  {
+    id: "merrill-lynch",
+    name: "Bank of America (Merrill Lynch)",
+    category: "Banking & Financial Services",
+    location: "Riyadh, KSA",
+    scope: "Corporate Office MEP Installation",
+    icon: HiOutlineCurrencyDollar,
+  },
+  {
+    id: "mobily",
+    name: "Mobily Telecommunications",
+    category: "Telecom & Datacenter",
+    location: "KSA",
+    scope: "Terminal Building MEP & Low Current",
+    icon: HiOutlineBuildingOffice2,
+  },
+  {
+    id: "al-jomaih",
+    name: "Al Jomaih Automotive (GM)",
+    category: "Automotive Commercial",
+    location: "KSA",
+    scope: "Cadillac Flagship Showroom MEP",
+    icon: HiOutlineBuildingOffice2,
   },
 ];
