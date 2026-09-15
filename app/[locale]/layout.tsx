@@ -45,6 +45,7 @@ export const metadata: Metadata = {
     shortcut: "/images/logo-light.png",
     apple: "/images/logo-light.png",
   },
+  // Open Graph metadata — controls link preview cards on WhatsApp, Facebook, Twitter, LinkedIn, etc.
   openGraph: {
     type: "website",
     locale: "en_US",

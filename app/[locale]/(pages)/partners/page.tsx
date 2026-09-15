@@ -15,9 +15,9 @@ export default function PartnersPage() {
         imageSrc="/images/bg-partners.png"
         imageAlt="Global technology partners and engineering alliances"
       />
-      {/* <PartnersGrid />
+      <PartnersGrid />
       <PartnershipValue />
-      <ClientsShowcase /> */}
+      <ClientsShowcase />
     </>
   );
 }
