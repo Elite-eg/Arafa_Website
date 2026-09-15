@@ -24,14 +24,23 @@ export default function PartnersGrid() {
 
   const categories: CategoryOption[] = [
     { key: "all", label: t("categories.all"), icon: HiOutlineSparkles },
-    { key: "electrical", label: t("categories.electrical"), icon: HiOutlineBolt },
-    { key: "hvac", label: t("categories.hvac"), icon: HiOutlineAdjustmentsVertical },
+    {
+      key: "electrical",
+      label: t("categories.electrical"),
+      icon: HiOutlineBolt,
+    },
+    {
+      key: "hvac",
+      label: t("categories.hvac"),
+      icon: HiOutlineAdjustmentsVertical,
+    },
     { key: "plumbing", label: t("categories.plumbing"), icon: HiOutlineFire },
     { key: "systems", label: t("categories.systems"), icon: HiOutlineCpuChip },
   ];
 
   const filteredPartners = PARTNER_ITEMS.filter((item) => {
-    const matchesCategory = activeCategory === "all" || item.category === activeCategory;
+    const matchesCategory =
+      activeCategory === "all" || item.category === activeCategory;
     const matchesSearch =
       item.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
       item.description.toLowerCase().includes(searchQuery.toLowerCase());
@@ -44,11 +53,7 @@ export default function PartnersGrid() {
   };
 
   return (
-    <section className="section-padding bg-body-alt relative overflow-hidden">
-      {/* Background Decorative Soft Glows */}
-      <div className="absolute top-1/4 start-1/2 -translate-x-1/2 w-[700px] h-[400px] bg-secondary/5 rounded-full blur-[120px] pointer-events-none" />
-      <div className="absolute bottom-10 end-10 w-96 h-96 bg-accent/5 rounded-full blur-[100px] pointer-events-none" />
-
+    <section className="section-padding pt-10 relative overflow-hidden">
       <div className="container-custom relative z-10">
         <SectionHeading
           badge={t("intro.badge")}
@@ -81,7 +86,9 @@ export default function PartnersGrid() {
           <span>
             {t.rich("grid.showing", {
               count: filteredPartners.length,
-              strong: (chunks) => <strong className="text-primary font-semibold">{chunks}</strong>,
+              strong: (chunks) => (
+                <strong className="text-primary font-semibold">{chunks}</strong>
+              ),
             })}
           </span>
           {(activeCategory !== "all" || searchQuery !== "") && (
