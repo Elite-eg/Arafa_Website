@@ -9,38 +9,38 @@ module.exports = {
     extend: {
       colors: {
         primary: {
-          DEFAULT: "var(--primary)",
-          light: "var(--primary-light)",
-          dark: "var(--primary-dark)",
-          mid: "var(--primary-mid)",
+          DEFAULT: "rgb(var(--primary-rgb) / <alpha-value>)",
+          light: "rgb(var(--primary-light-rgb) / <alpha-value>)",
+          dark: "rgb(var(--primary-dark-rgb) / <alpha-value>)",
+          mid: "rgb(var(--primary-mid-rgb) / <alpha-value>)",
         },
         accent: {
-          DEFAULT: "var(--accent)",
-          light: "var(--accent-light)",
-          dark: "var(--accent-dark)",
+          DEFAULT: "rgb(var(--accent-rgb) / <alpha-value>)",
+          light: "rgb(var(--accent-light-rgb) / <alpha-value>)",
+          dark: "rgb(var(--accent-dark-rgb) / <alpha-value>)",
         },
         secondary: {
-          DEFAULT: "var(--secondary)",
-          light: "var(--secondary-light)",
-          dark: "var(--secondary-dark)",
+          DEFAULT: "rgb(var(--secondary-rgb) / <alpha-value>)",
+          light: "rgb(var(--secondary-light-rgb) / <alpha-value>)",
+          dark: "rgb(var(--secondary-dark-rgb) / <alpha-value>)",
         },
         surface: {
-          DEFAULT: "var(--surface)",
-          elevated: "var(--surface-elevated)",
+          DEFAULT: "rgb(var(--surface-rgb) / <alpha-value>)",
+          elevated: "rgb(var(--surface-elevated-rgb) / <alpha-value>)",
         },
         body: {
-          DEFAULT: "var(--bg)",
-          alt: "var(--bg-alt)",
-          dark: "var(--bg-dark)",
+          DEFAULT: "rgb(var(--bg-rgb) / <alpha-value>)",
+          alt: "rgb(var(--bg-alt-rgb) / <alpha-value>)",
+          dark: "rgb(var(--bg-dark-rgb) / <alpha-value>)",
         },
         content: {
-          DEFAULT: "var(--text)",
-          light: "var(--text-light)",
-          muted: "var(--text-muted)",
+          DEFAULT: "rgb(var(--text-rgb) / <alpha-value>)",
+          light: "rgb(var(--text-light-rgb) / <alpha-value>)",
+          muted: "rgb(var(--text-muted-rgb) / <alpha-value>)",
         },
         edge: {
-          DEFAULT: "var(--border)",
-          light: "var(--border-light)",
+          DEFAULT: "rgb(var(--border-rgb) / <alpha-value>)",
+          light: "rgb(var(--border-light-rgb) / <alpha-value>)",
         },
       },
       fontFamily: {
