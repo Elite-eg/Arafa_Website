@@ -1,10 +1,23 @@
-import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
+import type { Metadata } from "next";
 import PageHeader from "@/components/shared/PageHeader";
 import ContactInfo from "./components/ContactInfo";
 import MapSection from "./components/MapSection";
 
-export default function ContactPage() {
-  const t = useTranslations("contactPage");
+export async function generateMetadata(): Promise<Metadata> {
+  const t = await getTranslations("seo");
+  return {
+    title: t("contactTitle"),
+    description: t("contactDescription"),
+    openGraph: {
+      title: t("contactTitle"),
+      description: t("contactDescription"),
+    },
+  };
+}
+
+export default async function ContactPage() {
+  const t = await getTranslations("contactPage");
 
   return (
     <>

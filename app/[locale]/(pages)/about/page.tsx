@@ -1,12 +1,25 @@
-import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
+import type { Metadata } from "next";
 import PageHeader from "@/components/shared/PageHeader";
 import CompanyStory from "./components/CompanyStory";
 import StrengthsSection from "./components/StrengthsSection";
 import MissionVision from "./components/MissionVision";
 import TeamPyramid from "./components/TeamPyramid";
 
-export default function AboutPage() {
-  const t = useTranslations("aboutPage");
+export async function generateMetadata(): Promise<Metadata> {
+  const t = await getTranslations("seo");
+  return {
+    title: t("aboutTitle"),
+    description: t("aboutDescription"),
+    openGraph: {
+      title: t("aboutTitle"),
+      description: t("aboutDescription"),
+    },
+  };
+}
+
+export default async function AboutPage() {
+  const t = await getTranslations("aboutPage");
 
   return (
     <>
