@@ -435,6 +435,77 @@
       }
     }
   },
+  "projectsPage": {
+    "header": {
+      "title": "Our Projects",
+      "subtitle": "Explore our portfolio of 100+ completed MEP, firefighting, and smart systems projects across the Gulf region."
+    },
+    "intro": {
+      "badge": "Our Portfolio",
+      "heading": "Projects That Define",
+      "headingHighlight": "Engineering Excellence",
+      "subtitle": "From prestigious hotels and universities to government facilities and data centers — discover how we bring world-class MEP solutions to life.",
+      "description": "With over 45 years of electro-mechanical construction experience across Saudi Arabia and the Gulf, IMDAD has successfully delivered landmark MEP projects ranging from 32-floor luxury hotel towers to mission-critical data centers and university campuses.",
+      "descriptionExtra": "Our in-house team self-performs 85% of MEP works including HVAC, high/low voltage electrical, fire suppression, and smart automation systems — ensuring unmatched execution quality and schedule compliance.",
+      "highlightQuote": "Engineering iconic developments with uncompromised quality, precision, and safety.",
+      "highlightAuthor": "Al Jazira for Imdad Smart Co.",
+      "statValue": "100+",
+      "statLabel": "Projects Delivered"
+    },
+    "filters": {
+      "all": "All Projects",
+      "mep": "MEP Works",
+      "firefighting": "Firefighting",
+      "low-current": "Low Current",
+      "data-center": "Data Center",
+      "civil-mep": "Civil & MEP"
+    },
+    "grid": {
+      "badge": "Portfolio Directory",
+      "heading": "Explore Our",
+      "headingHighlight": "Projects",
+      "subtitle": "Filter by discipline to view our track record across MEP, firefighting, low-current, data center, and civil works.",
+      "showing": "Showing <strong>{count}</strong> projects",
+      "noResults": "No projects found in this category",
+      "noResultsSubtitle": "Try selecting a different category filter.",
+      "viewProject": "View Project",
+      "status": {
+        "Finished": "Completed",
+        "Working": "In Progress"
+      }
+    },
+    "stats": {
+      "heading": "Our Impact in Numbers",
+      "subtitle": "Key metrics and proven milestones across four decades of engineering excellence.",
+      "items": [
+        { "value": "100+", "label": "Completed Projects" },
+        { "value": "3", "label": "Countries Served" },
+        { "value": "45+", "label": "Years of Experience" },
+        { "value": "85%", "label": "Self-Performed Work" }
+      ]
+    },
+    "cta": {
+      "heading": "Have a Project",
+      "headingHighlight": "in Mind?",
+      "subtitle": "Let our 45+ years of MEP expertise bring your next construction or infrastructure project to life. Get a free consultation today.",
+      "button": "Request a Quote",
+      "buttonSecondary": "Call Us Now"
+    },
+    "detail": {
+      "backToProjects": "Back to Projects",
+      "projectInfo": "Project Information",
+      "client": "Client",
+      "location": "Location",
+      "scope": "Scope of Work",
+      "status": "Status",
+      "category": "Category",
+      "aboutProject": "About This Project",
+      "relatedProjects": "Related",
+      "relatedProjectsHighlight": "Projects",
+      "relatedProjectsSubtitle": "Explore more projects in the same category.",
+      "viewProject": "View Details"
+    }
+  },
   "seo": {
     "homeTitle": "Al Jazira for Imdad Smart Company | MEP Contracting & Smart Systems",
     "homeDescription": "Leading MEP construction company in the Gulf region with 45+ years of experience. General contracting, mechanical, electrical, plumbing, firefighting systems, and smart building solutions in KSA.",
@@ -443,6 +514,10 @@
     "partnersTitle": "Our Partners & Clients | Al Jazira for Imdad Smart Company",
     "partnersDescription": "Explore our strategic global partners and prestigious client portfolio across Saudi Arabia and the Gulf region.",
     "contactTitle": "Contact Us | Al Jazira for Imdad Smart Company",
-    "contactDescription": "Get in touch with Al Jazira for Imdad Smart Company. Request a quotation, inquire about our MEP services, or visit our office in Makkah, KSA."
+    "contactDescription": "Get in touch with Al Jazira for Imdad Smart Company. Request a quotation, inquire about our MEP services, or visit our office in Makkah, KSA.",
+    "projectsTitle": "Our Projects | Al Jazira for Imdad Smart Company",
+    "projectsDescription": "Explore 100+ MEP, firefighting, and smart systems projects delivered by Al Jazira for Imdad Smart Company across Saudi Arabia, UAE, and Qatar.",
+    "projectDetailTitle": "{title} | Al Jazira for Imdad Smart Company",
+    "projectDetailDescription": "{title} — {scope} project in {location}. Delivered by Al Jazira for Imdad Smart Company."
   }
 }

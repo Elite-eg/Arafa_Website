@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { heroTextReveal, heroStagger } from "@/lib/animations";
+import CurvedDivider from "@/components/shared/CurvedDivider";
 
 interface PageHeaderProps {
   title: string;
@@ -34,20 +35,7 @@ export default function PageHeader({
       </div>
 
       {/* Curved bottom edge */}
-      <div className="absolute bottom-0 start-0 end-0">
-        <svg
-          viewBox="0 0 1440 80"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-          className="w-full h-[50px] sm:h-[60px] md:h-[80px]"
-          preserveAspectRatio="none"
-        >
-          <path
-            d="M0 80V40C240 0 480 0 720 20C960 40 1200 60 1440 40V80H0Z"
-            fill="var(--bg)"
-          />
-        </svg>
-      </div>
+      <CurvedDivider />
 
       {/* Content */}
       <motion.div

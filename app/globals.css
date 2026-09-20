@@ -21,33 +21,48 @@ body {
   --primary-dark: #0a1220;
   --primary-dark-rgb: 10 18 32;
   --primary-mid: #152238;
+  --primary-mid-rgb: 21 34 56;
 
   /* Accent — Warm Amber Gold */
   --accent: #c8952e;
   --accent-rgb: 200 149 46;
   --accent-light: #dbb058;
+  --accent-light-rgb: 219 176 88;
   --accent-dark: #a87b20;
+  --accent-dark-rgb: 168 123 32;
   --accent-glow: rgba(200, 149, 46, 0.35);
 
   /* Secondary — Cool Cyan */
   --secondary: #38b6cc;
   --secondary-rgb: 56 182 204;
   --secondary-light: #5dc8da;
+  --secondary-light-rgb: 93 200 218;
   --secondary-dark: #2a96a8;
+  --secondary-dark-rgb: 42 150 168;
 
   /* Neutrals */
   --bg: #fafbfc;
+  --bg-rgb: 250 251 252;
   --bg-alt: #f2f4f7;
+  --bg-alt-rgb: 242 244 247;
   --bg-dark: #0a1220;
+  --bg-dark-rgb: 10 18 32;
   --text: #1c2a3a;
+  --text-rgb: 28 42 58;
   --text-light: #5b7084;
+  --text-light-rgb: 91 112 132;
   --text-muted: #94a3b8;
+  --text-muted-rgb: 148 163 184;
   --border: #e2e8f0;
+  --border-rgb: 226 232 240;
   --border-light: #f1f5f9;
+  --border-light-rgb: 241 245 249;
 
   /* Surfaces */
   --surface: #ffffff;
+  --surface-rgb: 255 255 255;
   --surface-elevated: #ffffff;
+  --surface-elevated-rgb: 255 255 255;
   --surface-glass: rgba(255, 255, 255, 0.78);
   --surface-glass-border: rgba(255, 255, 255, 0.25);
 

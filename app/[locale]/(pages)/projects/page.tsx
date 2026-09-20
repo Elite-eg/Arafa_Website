@@ -1,12 +1,38 @@
-export default function ProjectsPage() {
+import { getTranslations } from "next-intl/server";
+import type { Metadata } from "next";
+import PageHeader from "@/components/shared/PageHeader";
+import ProjectsGrid from "./components/ProjectsGrid";
+import ProjectStats from "./components/ProjectStats";
+import ProjectsHighlight from "./components/ProjectsHighlight";
+import ProjectsCTA from "./components/ProjectsCTA";
+
+export async function generateMetadata(): Promise<Metadata> {
+  const t = await getTranslations("seo");
+  return {
+    title: t("projectsTitle"),
+    description: t("projectsDescription"),
+    openGraph: {
+      title: t("projectsTitle"),
+      description: t("projectsDescription"),
+    },
+  };
+}
+
+export default async function ProjectsPage() {
+  const t = await getTranslations("projectsPage.header");
+
   return (
-    <section className="min-h-screen flex items-center justify-center">
-      <div className="text-center">
-        <h1 className="text-4xl font-heading font-bold text-primary mb-4">
-          Projects
-        </h1>
-        <p className="text-content-muted">Coming soon...</p>
-      </div>
-    </section>
+    <>
+      <PageHeader
+        title={t("title")}
+        subtitle={t("subtitle")}
+        imageSrc="/images/header-projects.png"
+        imageAlt="MEP construction site with engineering systems"
+      />
+      <ProjectsGrid />
+      <ProjectStats />
+      <ProjectsHighlight />
+      <ProjectsCTA />
+    </>
   );
 }
