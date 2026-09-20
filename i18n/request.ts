@@ -8,11 +8,9 @@ export default getRequestConfig(async ({requestLocale}) => {
     ? requested
     : routing.defaultLocale;
 
-  const timeZone = Intl.DateTimeFormat().resolvedOptions().timeZone;
-
   return {
     locale,
-    timeZone: timeZone,
+    timeZone: "UTC",
     messages: (await import(`@/messages/${locale}.json`)).default
   };
 });

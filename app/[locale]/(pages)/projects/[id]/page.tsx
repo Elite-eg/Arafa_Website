@@ -14,24 +14,31 @@ import ProjectGallery from "./components/ProjectGallery";
 import ProjectsCTA from "../components/ProjectsCTA";
 import RelatedProjects from "./components/RelatedProjects";
 
+import { routing } from "@/i18n/routing";
+
 interface PageProps {
   params: Promise<{ id: string; locale: string }>;
 }
 
 /** Generate static paths for all projects */
 export async function generateStaticParams() {
-  return projects.map((p) => ({ id: p.id }));
+  return routing.locales.flatMap((locale) =>
+    projects.map((p) => ({
+      locale,
+      id: p.id,
+    }))
+  );
 }
 
 /** Per-project SEO metadata */
 export async function generateMetadata({
   params,
 }: PageProps): Promise<Metadata> {
-  const { id } = await params;
+  const { id, locale } = await params;
   const project = getProjectById(id);
   if (!project) return {};
 
-  const t = await getTranslations("seo");
+  const t = await getTranslations({ locale, namespace: "seo" });
   const title = t("projectDetailTitle", { title: project.title });
   const description = t("projectDetailDescription", {
     title: project.title,
@@ -47,12 +54,12 @@ export async function generateMetadata({
 }
 
 export default async function ProjectDetailPage({ params }: PageProps) {
-  const { id } = await params;
+  const { id, locale } = await params;
   const project = getProjectById(id);
 
   if (!project) notFound();
 
-  const t = await getTranslations("projectsPage");
+  const t = await getTranslations({ locale, namespace: "projectsPage" });
   const related = getRelatedProjects(project, 3);
 
   const categoryLabel = CATEGORY_LABELS[project.category] ?? project.category;
